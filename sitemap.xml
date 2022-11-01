@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/biography.html</loc>
-    <lastmod>2022-10-18T04:45:22.874Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/inet2015.html</loc>
-    <lastmod>2022-10-18T04:45:23.606Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/index.html</loc>
-    <lastmod>2022-10-18T04:45:25.834Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/inet2013.html</loc>
-    <lastmod>2022-10-18T04:45:26.210Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/stat548.html</loc>
-    <lastmod>2022-10-18T04:45:26.578Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/dajmcdon/dajmcdon.github.io/index.html</loc>
-    <lastmod>2022-10-18T04:45:26.894Z</lastmod>
+    <lastmod>2022-11-01T06:22:00.090Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/other.html</loc>
-    <lastmod>2022-10-18T04:45:27.254Z</lastmod>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/biography.html</loc>
+    <lastmod>2022-11-01T06:22:02.558Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dajmcdon/dajmcdon.github.io/students.html</loc>
-    <lastmod>2022-10-18T04:45:37.015Z</lastmod>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/other/index.html</loc>
+    <lastmod>2022-11-01T06:22:02.950Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/market-advice.html</loc>
+    <lastmod>2022-11-01T06:22:03.810Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dajmcdon/dajmcdon.github.io/research/index.html</loc>
-    <lastmod>2022-10-18T04:45:51.627Z</lastmod>
+    <lastmod>2022-11-01T06:22:18.258Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/dajmcdon/dajmcdon.github.io/research/all-pubs.html</loc>
-    <lastmod>2022-10-18T04:45:56.835Z</lastmod>
+    <lastmod>2022-11-01T06:22:23.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/index.html</loc>
+    <lastmod>2022-11-01T06:22:25.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/inet2015.html</loc>
+    <lastmod>2022-11-01T06:22:26.086Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/stat548.html</loc>
+    <lastmod>2022-11-01T06:22:26.470Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/teaching/inet2013.html</loc>
+    <lastmod>2022-11-01T06:22:26.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/dajmcdon/dajmcdon.github.io/students.html</loc>
+    <lastmod>2022-11-01T06:22:35.650Z</lastmod>
   </url>
 </urlset>
