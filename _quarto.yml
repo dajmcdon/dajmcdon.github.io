@@ -4,6 +4,7 @@ project:
 website:
   title: "DJM"
   search: false
+  google-analytics: "G-25YNZL7ZML"
   favicon: assets/img/djm.ico
   image: assets/img/djm.png
   navbar:
@@ -23,7 +24,7 @@ website:
         text: OTHER
   page-footer:
     border: false
-    right: "© 2022, Daniel J. McDonald"
+    right: "© 2023, Daniel J. McDonald"
     center: |
       <a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a>
       <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
