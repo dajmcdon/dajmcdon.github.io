@@ -100,7 +100,11 @@
         "randomForest",
         "stats"
       ],
+<<<<<<< HEAD
       "Hash": "7b0a368b622cbe8c8f16e5a6e3ee8013"
+=======
+      "Hash": "0ad5180b5e5aa0307752000777040550"
+>>>>>>> aca4f1b7972ee78145dcc2518d69d57b5bd093ce
     },
     "ambient": {
       "Package": "ambient",
