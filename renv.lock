@@ -87,7 +87,7 @@
     },
     "aRtsy": {
       "Package": "aRtsy",
-      "Version": "0.2.3",
+      "Version": "0.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -98,10 +98,9 @@
         "ggplot2",
         "kknn",
         "randomForest",
-        "scales",
         "stats"
       ],
-      "Hash": "81242fac596b774ca8afa89fe4784017"
+      "Hash": "0ad5180b5e5aa0307752000777040550"
     },
     "ambient": {
       "Package": "ambient",
