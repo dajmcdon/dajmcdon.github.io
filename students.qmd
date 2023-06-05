@@ -9,13 +9,13 @@ title: "Information for Students"
 
 - Jiaping Liu, PhD in Statistics
 - Rachel Lobay, PhD in Statistics
-- Tigana Runte, MSc in Statistics
-- Elvis Cai, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/))
-- William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/))
 
 ### Alumni
 
-- Ken Mawer, NSERC USRA (UBC 2022); BSc Student at UBC
+- Tigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada
+- Elvis Cai, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/), UBC 2023); Statistician at Children's Hospital of Eastern Ontario
+- William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/), UBC 2023); 
+- Ken Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo
 - Shuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation
 - Xiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC
 - Wei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon
@@ -45,21 +45,17 @@ If you want to learn more, your best bet is to email the [Graduate Admissions Of
 
 ## Requesting letters of recommendation 
 
-I frequently get requests for letters of recommendation, and I'm generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I can provide a "took a class with me letter", but I **highly** recommend asking someone else who can provide more detailed descriptions of your unique strengths. If you are currently enrolled in class with me, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself.
+I frequently get requests for letters of recommendation, and I'm generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I **highly** recommend asking someone else who can provide more detailed descriptions of your unique strengths. If you are currently enrolled in class with me, and you would like a letter, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. Without such interaction, I will likely write a generic "this student took a class with me" letter, but experience suggests that this type of letter is not likely to help you to be admitted to graduate school.
 
 In order for me to write, I will need at least **two** weeks notice before the first deadline. 
 
 -   A list of all positions to which you are applying along with deadlines for each.
-
 -   A recent CV or resume that includes a list of courses taken in your major and a unofficial transcript.
-
 -   A personal statement (likely the one you're sending in one of the applications).
-
 -   Answers to the following questions as possible:
-    1.  For what class(es) have I been the instructor and how did you distinguish yourself in my class(es)? Did we have any notable interactions I should highlight.
-    2.  What makes me particularly qualified to write a letter for you?
-    3.  What are your long-term goals?
-    4. A list of 3 adjectives that describe you with a sentence saying why. Be creative.
+    1. For what class(es) have I been the instructor and how did you distinguish yourself in my class(es)? Did we have any notable interactions I should highlight.
+    2. What are your long-term goals?
+    3. A list of 3 adjectives that describe you with a sentence saying why. Be creative.
 
 
 ## Public calendar {#public-calendar}
