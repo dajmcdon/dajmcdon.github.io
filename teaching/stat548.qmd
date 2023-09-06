@@ -2,7 +2,7 @@
 title: Stat 548 - Qualifying Papers
 ---
 
-Last updated: 5 September 2022
+Last updated: 6 September 2023
 
 ## Choosing a paper
 
@@ -104,8 +104,8 @@ Some resources on technical/mathematical writing:
 ~~_Themes:_ optimization, statistical theory, compression~~  
 ~~_Project:_ Consider ways the theoretical results can be applied to other losses/methodologies.~~
 
---->
-```
+2022
+
 1.  ~~Metzler, Mousavi, Heckel, and Baraniuk. [Unsupervised Learning with Stein's Unbiased Risk Estimator](https://arxiv.org/abs/1805.10531)~~  
     ~~*Themes:* Deep learning, risk estimation, computation.~~  
     ~~*Project:* Describe and implement SURE for ridge regression using the Auto Differentiation idea discussed in this paper.~~
@@ -117,3 +117,22 @@ Some resources on technical/mathematical writing:
 3.  ~~Green, Balakrishnan, and Tibshirani. [Minimax Optimal Regression over Sobolev Spaces via Laplacian Eigenmaps on Neighborhood Graphs](https://arxiv.org/abs/2111.07394)~~  
     ~~*Themes:* Nonparametric regression, manifolds, sufficient dimension reduction.~~  
     ~~*Project:* Discuss how the ideas in this paper relate to recent work on "Sufficient Dimension Reduction" as in, e.g., [this paper](https://arxiv.org/abs/2010.15009) and references therein.~~
+
+--->
+```
+
+1. Heng, Zhou, and Chi. [Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo](https://doi.org/10.1080/10618600.2023.2170089)  
+  *Themes:* Non-parametric regression, computation.  
+  *Project:* Compare the methods with the `{trendfilter}` package in terms of speed/accuracy. Describe any advantages or disadvantages.
+  
+2. Schoenberg. [Estimating Covid-19 Transmission Time Using Hawkes Point Processes](https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/52942?confirm=d5eddae0)  
+  *Themes:* Time series, infectious disease, point processes.  
+  *Project:* Apply the methods to BC Case Data. Comment on how your results compare to published estimates.
+  
+3. Lamprinakou, Gandy, and McCoy. [Using a latent Hawkes process for epidemiological modelling](https://doi.org/10.1371/journal.pone.0281370)  
+  *Themes:* Time series, infectious disease, point processes.  
+  *Project:* Carefully explain the connections between Hawkes processes, SIR models, and state-space models. 
+  
+4. Bergmeir, Hyndman, Koo. [A note on the validity of cross-validation for evaluating autoregressive time series prediction](https://robjhyndman.com/papers/cv-wp.pdf)  
+  *Themes:* Time series, model selection, risk estimation.  
+  *Project:* Mimic a similar experiment using AR data with lasso and CV vs OOS estimation. Examine the proof of Theorem 1 and describe how we might be able to extend these results to "mixing" processes (or why we can't).
