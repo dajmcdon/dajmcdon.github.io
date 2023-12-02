@@ -2,16 +2,13 @@
 title: "Links, resources and additional information"
 ---
 
-## COVID work
+## Infectious disease modelling work
 
 * Delphi Research Group at Carnegie Mellon University
     - [Website](https://delphi.cmu.edu)
-    - [Covidcast](https://delphi.cmu.edu/covidcast/)
     - [Github Org](http://github.com/cmu-delphi)
 
 * [BC COVID-19 Modelling Group](https://bccovid-19group.ca)
-
-* [BC COVID Case Tracker](bc-covid-tracker/), somewhat useless now that cases are dramatically underreported, but still running.
 
 
 ## R packages for recent papers and publications
@@ -19,18 +16,18 @@ title: "Links, resources and additional information"
 (See [github/dajmcdon](http://github.com/dajmcdon) or my
   [publications page](/research/all-pubs.html) for others)
   
-* [{fkf}](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
+* [`{fkf}`](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
   Very fast Kalman filtering and smoothing. 
-* [{sparsegl}](https://dajmcdon.github.io/sparsegl/) __Sparse Group Lasso.__
+* [`{sparsegl}`](https://dajmcdon.github.io/sparsegl/) __Sparse Group Lasso.__
     Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.
-* [{dpf}](http://github.com/dajmcdon/dpf): __Discrete particle
+* [`{dpf}`](http://github.com/dajmcdon/dpf): __Discrete particle
   filtering.__ This package greedily estimates switching Kalman filters
   *fast*. Also useful for analysis of musical tempos.
-* [{AIMER}](http://github.com/dajmcdon/aimer): __Amplified, Initially Marginal, Eigenvector Regression.__ As described in Ding, L. and McDonald, D.J.,
+* [`{AIMER}`](http://github.com/dajmcdon/aimer): __Amplified, Initially Marginal, Eigenvector Regression.__ As described in Ding, L. and McDonald, D.J.,
 "Predicting phenotypes from microarrays using amplified, initially
 marginal, eigenvector regression". A better version of supervised
 principal components analysis.
-* [{cplr}](http://github.com/dajmcdon/cplr): __Compressed penalized linear regression.__ As described in Homrighausen, D. and McDonald, D.J.,
+* [`{cplr}`](http://github.com/dajmcdon/cplr): __Compressed penalized linear regression.__ As described in Homrighausen, D. and McDonald, D.J.,
 "Compressed and penalized linear regression." 
 
 
@@ -61,14 +58,12 @@ If any of this seems useful, see the underlying [Github repo](https://github.com
 
 ## Personal
 
-I still play cello occasionally, and I enjoy listening to classical music whenever I get the chance. I've only once successfully connected [research and music](/chopin-2022-slides), but this leaves music to be a nice hobby, a total diversion from academic work.
+I still play cello occasionally, both privately and with the [Vancouver Philharmonic](https://www.vanphil.ca). And I enjoy listening to classical music whenever I get the chance. I've only once successfully connected [research and music](/chopin-2022-slides), but this leaves music to be a nice hobby, a total diversion from academic work.
 
-I should also point to my partner's website: [Tamara Mitchell](https://tamaraleemitchell.github.io). She does great work in Hispanic literature, and we're lucky to be at the same institution. We also have two wonderful cats that we spoil rotten.
+I should also point to my partner's website: [Tamara Mitchell](https://tamaraleemitchell.github.io). She does great work in Hispanic literature, and we're lucky to be at the same institution. We also have a wonderful cat that we spoil rotten.
 
-::: {layout-ncol=2 .column-screen-inset-left}
+
 
 ![Gigi](/assets/img/gigi.JPG)
 
-![Mona](/assets/img/mona.jpg)
-:::
 
