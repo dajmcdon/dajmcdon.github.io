@@ -112,7 +112,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#covid-work" id="toc-covid-work" class="nav-link active" data-scroll-target="#covid-work">COVID work</a></li>
+  <li><a href="#infectious-disease-modelling-work" id="toc-infectious-disease-modelling-work" class="nav-link active" data-scroll-target="#infectious-disease-modelling-work">Infectious disease modelling work</a></li>
   <li><a href="#r-packages-for-recent-papers-and-publications" id="toc-r-packages-for-recent-papers-and-publications" class="nav-link" data-scroll-target="#r-packages-for-recent-papers-and-publications">R packages for recent papers and publications</a></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a>
   <ul class="collapse">
@@ -124,7 +124,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -143,28 +143,26 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 
 </header>
 
-<section id="covid-work" class="level2">
-<h2 class="anchored" data-anchor-id="covid-work">COVID work</h2>
+<section id="infectious-disease-modelling-work" class="level2">
+<h2 class="anchored" data-anchor-id="infectious-disease-modelling-work">Infectious disease modelling work</h2>
 <ul>
-<li><p>Delphi Research Group at Carnegie Mellon University</p>
+<li>Delphi Research Group at Carnegie Mellon University
 <ul>
 <li><a href="https://delphi.cmu.edu">Website</a></li>
-<li><a href="https://delphi.cmu.edu/covidcast/">Covidcast</a></li>
 <li><a href="http://github.com/cmu-delphi">Github Org</a></li>
 </ul></li>
-<li><p><a href="https://bccovid-19group.ca">BC COVID-19 Modelling Group</a></p></li>
-<li><p><a href="bc-covid-tracker/">BC COVID Case Tracker</a>, somewhat useless now that cases are dramatically underreported, but still running.</p></li>
+<li><a href="https://bccovid-19group.ca">BC COVID-19 Modelling Group</a></li>
 </ul>
 </section>
 <section id="r-packages-for-recent-papers-and-publications" class="level2">
 <h2 class="anchored" data-anchor-id="r-packages-for-recent-papers-and-publications">R packages for recent papers and publications</h2>
 <p>(See <a href="http://github.com/dajmcdon">github/dajmcdon</a> or my <a href="../research/all-pubs.html">publications page</a> for others)</p>
 <ul>
-<li><a href="https://waternumbers.github.io/FKF/index.html">{fkf}</a>: <strong>Fast Kalman Filter.</strong> Very fast Kalman filtering and smoothing.</li>
-<li><a href="https://dajmcdon.github.io/sparsegl/">{sparsegl}</a> <strong>Sparse Group Lasso.</strong> Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.</li>
-<li><a href="http://github.com/dajmcdon/dpf">{dpf}</a>: <strong>Discrete particle filtering.</strong> This package greedily estimates switching Kalman filters <em>fast</em>. Also useful for analysis of musical tempos.</li>
-<li><a href="http://github.com/dajmcdon/aimer">{AIMER}</a>: <strong>Amplified, Initially Marginal, Eigenvector Regression.</strong> As described in Ding, L. and McDonald, D.J., “Predicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression”. A better version of supervised principal components analysis.</li>
-<li><a href="http://github.com/dajmcdon/cplr">{cplr}</a>: <strong>Compressed penalized linear regression.</strong> As described in Homrighausen, D. and McDonald, D.J., “Compressed and penalized linear regression.”</li>
+<li><a href="https://waternumbers.github.io/FKF/index.html"><code>{fkf}</code></a>: <strong>Fast Kalman Filter.</strong> Very fast Kalman filtering and smoothing.</li>
+<li><a href="https://dajmcdon.github.io/sparsegl/"><code>{sparsegl}</code></a> <strong>Sparse Group Lasso.</strong> Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.</li>
+<li><a href="http://github.com/dajmcdon/dpf"><code>{dpf}</code></a>: <strong>Discrete particle filtering.</strong> This package greedily estimates switching Kalman filters <em>fast</em>. Also useful for analysis of musical tempos.</li>
+<li><a href="http://github.com/dajmcdon/aimer"><code>{AIMER}</code></a>: <strong>Amplified, Initially Marginal, Eigenvector Regression.</strong> As described in Ding, L. and McDonald, D.J., “Predicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression”. A better version of supervised principal components analysis.</li>
+<li><a href="http://github.com/dajmcdon/cplr"><code>{cplr}</code></a>: <strong>Compressed penalized linear regression.</strong> As described in Homrighausen, D. and McDonald, D.J., “Compressed and penalized linear regression.”</li>
 </ul>
 </section>
 <section id="additional-resources" class="level2">
@@ -193,29 +191,15 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <p>This website was built with <a href="https://quarto.org">Quarto</a> along with some custom CSS inspired by the <a href="https://hugo-apero.netlify.app/contributors/">Hugo Apéro</a> theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code.</p>
 <p>If any of this seems useful, see the underlying <a href="https://github.com/dajmcdon/dajmcdon.github.io">Github repo</a> for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators).</p>
 </section>
-<section id="personal" class="level2 page-columns page-full">
+<section id="personal" class="level2">
 <h2 class="anchored" data-anchor-id="personal">Personal</h2>
-<p>I still play cello occasionally, and I enjoy listening to classical music whenever I get the chance. I’ve only once successfully connected <a href="../chopin-2022-slides">research and music</a>, but this leaves music to be a nice hobby, a total diversion from academic work.</p>
-<p>I should also point to my partner’s website: <a href="https://tamaraleemitchell.github.io">Tamara Mitchell</a>. She does great work in Hispanic literature, and we’re lucky to be at the same institution. We also have two wonderful cats that we spoil rotten.</p>
-<div class="column-screen-inset-left quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p>I still play cello occasionally, both privately and with the <a href="https://www.vanphil.ca">Vancouver Philharmonic</a>. And I enjoy listening to classical music whenever I get the chance. I’ve only once successfully connected <a href="../chopin-2022-slides">research and music</a>, but this leaves music to be a nice hobby, a total diversion from academic work.</p>
+<p>I should also point to my partner’s website: <a href="https://tamaraleemitchell.github.io">Tamara Mitchell</a>. She does great work in Hispanic literature, and we’re lucky to be at the same institution. We also have a wonderful cat that we spoil rotten.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/img/gigi.JPG" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Gigi</figcaption>
 </figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/img/mona.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Mona</figcaption>
-</figure>
-</div>
-</div>
-</div>
 </div>
 
 
