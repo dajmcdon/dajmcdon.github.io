@@ -1,38 +1,17 @@
 [
   {
-    "objectID": "students.html",
-    "href": "students.html",
-    "title": "Information for Students",
+    "objectID": "research/all-pubs.html",
+    "href": "research/all-pubs.html",
+    "title": "All papers and preprints",
     "section": "",
-    "text": "Jiaping Liu, PhD in Statistics\nRachel Lobay, PhD in Statistics\nWakeel Adekunle Kasali, MSc in Statistics (co-supervised with Nancy Heckman)\n\n\n\n\n\nTigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada\nElvis Cai, MSc in Statistics (co-supervised with Paul Gustafson, UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences\nWilliam Laplante, MSc in Statistics (co-supervised with Ben Bloem-Reddy, UBC 2023);\nKen Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo\nShuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation\nXiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC\nWei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon\nAaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB\nLei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon\nRobert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB\nHaoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB\nMackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB\nArash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions\nMichael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic\nJia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo\nLijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB"
+    "text": "Associative White Matter Tracts Selectively Predict Sensorimotor Learning\n\nVinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F\n\nTechnical Report, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSparsegl: An R Package for Estimating Sparse Group Lasso\n\nLiang, X, Cohen, A, Heinsfeld, AS, Pestilli, F, et al. \n\nJournal of Statistical Software, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSmooth Multi-Period Forecasting with Application to Prediction of COVID-19 Cases\n\nTuzhilina, E, Hastie, TJ, McDonald, DJ, Tay, JK, et al. \n\nJournal of Computational and Graphical Statistics, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nLess is More: Balancing Noise Reduction and Data Retention in fMRI with Projection Scrubbing\n\nPham, D, Ding, L, McDonald, DJ, Nebel, MB, et al. \n\nNeuroimage, 270, 119972, 2023\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nExponential Family Trend Filtering on Lattices\n\nSadhanala, V, Bassett, R, Sharpnack, J, McDonald, DJ\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nEvaluation of Individual and Ensemble Probabilistic Forecasts of COVID-19 Mortality in the United States\n\nCramer, EY, Ray, EL, Lopez, VK, Bracher, J, et al. \n\nProceedings of the National Academy of Sciences, 119, e2113561119, 2022\n\n\n\n journal\n\n arXiv\n\n\n\n\nSufficient Principal Component Regression for Genomics\n\nDing, L, Zentner, GE, McDonald, DJ\n\nBioinformatics Advances, 2, vbac033, 2022\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nAn Open Repository of Real-Time COVID-19 Indicators\n\nReinhart, A, Brooks, L, Jahja, M, Rumack, A, et al. \n\nProceedings of the National Academy of Sciences, 118, e2111452118, 2021\n\n\n\n journal\n\n arXiv\n\n\n\n\nCan Auxiliary Indicators Improve COVID-19 Forecasting and Hotspot Prediction?\n\nMcDonald, DJ, Bien, J, Green, A, Hu, AJ, et al. \n\nProceedings of the National Academy of Sciences, 118, e2111453118, 2021\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nFlexible Analysis of TSS Mapping Data and Detection of TSS Shifts with TSRexploreR\n\nPolicastro, RA, McDonald, DJ, Brendel, VP, Zentner, GE\n\nNAR Genomics and Bioinformatics, 3, 1–10, 2021\n\n\n\n journal\n\n pdf\n\n code\n\n\n\n\nMarkov-Switching State Space Models for Uncovering Musical Interpretation\n\nMcDonald, DJ, McBride, M, Gu, Y, Raphael, C\n\nAnnals of Applied Statistics, 15, 1147–1170, 2021\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nCompressed and Penalized Linear Regression\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Computational and Graphical Statistics, 29, 309–322, 2020\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nBook Review: Sufficient Dimension Reduction: Methods and Applications with R\n\nMcDonald, DJ\n\nJournal of the American Statistical Association, 115, NA, 2020\n\n\n\n journal\n\n\n\n\nAlgorithms for Estimating Trends in Global Temperature Volatility\n\nKhodadadi, A, McDonald, DJ\n\nProceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI-19), 2019\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nA Study on Tuning Parameter Selection for the High-Dimensional Lasso\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Statistical Computation and Simulation, 88, 2865–2892, 2018\n\n\n\n journal\n\n arXiv\n\n\n\n\nRademacher Complexity of Stationary Sequences\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2017\n\n\n\n arXiv\n\n\n\n\nMinimax Density Estimation for Growing Dimension\n\nMcDonald, DJ\n\nProceedings of the Twentieth International Conference on Artificial Intelligence and Statistics (AISTATS), 54, 194–203, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nPredicting Phenotypes from Microarrays using Amplified, Initially Marginal, Eigenvector Regression\n\nDing, L, McDonald, DJ\n\nBioinformatics, 33, i350–i358, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nRisk Consistency of Cross-Validation for Lasso-Type Procedures\n\nHomrighausen, D, McDonald, DJ\n\nStatistica Sinica, 27, 1017–1036, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nNonparametric Risk Bounds for Time-Series Forecasting\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nJournal of Machine Learning Research, 18, 1–40, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nOn the Nystrom and Column-Sampling Methods for the Approximate Principal Components Analysis of Large Data Sets\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Computational and Graphical Statistics, 25, 344–362, 2016\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nDoes Increased Sexual Frequency Enhance Happiness?\n\nLoewenstein, G, Krishnamurti, T, Kopsic, J, McDonald, DJ\n\nJournal of Economic Behavior and Organization, 116, 206–218, 2015\n\n\n\n journal\n\n\n\n\nEstimating Beta-Mixing Coefficients via Histograms\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nElectronic Journal of Statistics, 9, 2855–2883, 2015\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nLeave-One-Out Cross-Validation is Risk Consistent for Lasso\n\nHomrighausen, D, McDonald, DJ\n\nMachine Learning, 97, 65–78, 2014\n\n\n\n journal\n\n arXiv\n\n\n\n\nThe Lasso, Persistence, and Cross-Validation\n\nHomrighausen, D, McDonald, DJ\n\nProceedings of the Thirtieth International Conference on Machine Learning (ICML), 28, 1031–1039, 2013\n\n\n\n journal\n\n arXiv\n\n\n\n\nGeneralization Error Bounds for State-Space Models\n\nMcDonald, DJ\n\nPh.D. Dissertation, 2012\n\n\n\n pdf\n\n\n\n\nThe Impact of Price Discounts and Calorie Messaging on Beverage Consumption: A Multi-Site Field Study\n\nJue, JJ, Press, MJ, McDonald, DJ, Volpp, KG, et al. \n\nPreventive Medicine, 55, 629–633, 2012\n\n\n\n journal\n\n\n\n\nSpectral Approximations in Machine Learning\n\nHomrighausen, D, McDonald, DJ\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nEstimated VC Dimension for Risk Bounds\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nGeneralization Error Bounds for Stationary Autoregressive Models\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nEstimating Beta-Mixing Coefficients\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nProceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics (AISTATS), 15, 516–524, 2011\n\n\n\n journal\n\n arXiv\n\n\n\n\nThe Behavior of Weight-Loss Study Participants in Response to Incentives\n\nMcDonald, DJ, Loewenstein, GF, Kadane, J\n\nTechnical Report, 2009\n\n\n\n pdf"
   },
   {
-    "objectID": "students.html#research-group",
-    "href": "students.html#research-group",
-    "title": "Information for Students",
+    "objectID": "biography.html",
+    "href": "biography.html",
+    "title": "Biography",
     "section": "",
-    "text": "Jiaping Liu, PhD in Statistics\nRachel Lobay, PhD in Statistics\nWakeel Adekunle Kasali, MSc in Statistics (co-supervised with Nancy Heckman)\n\n\n\n\n\nTigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada\nElvis Cai, MSc in Statistics (co-supervised with Paul Gustafson, UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences\nWilliam Laplante, MSc in Statistics (co-supervised with Ben Bloem-Reddy, UBC 2023);\nKen Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo\nShuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation\nXiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC\nWei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon\nAaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB\nLei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon\nRobert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB\nHaoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB\nMackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB\nArash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions\nMichael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic\nJia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo\nLijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB"
-  },
-  {
-    "objectID": "students.html#applying-to-ubc-statistics-or-mds-programs",
-    "href": "students.html#applying-to-ubc-statistics-or-mds-programs",
-    "title": "Information for Students",
-    "section": "Applying to UBC Statistics or MDS Programs",
-    "text": "Applying to UBC Statistics or MDS Programs\nI generally have no special powers when it comes to being admitted to MSc/PhD or MDS programs. At UBC, students are admitted to the department before choosing an advisor later in their program. If you are interested, I encourage you to consult the department website.\nIf you want to learn more, your best bet is to email the Graduate Admissions Officer."
-  },
-  {
-    "objectID": "students.html#requesting-letters-of-recommendation",
-    "href": "students.html#requesting-letters-of-recommendation",
-    "title": "Information for Students",
-    "section": "Requesting letters of recommendation",
-    "text": "Requesting letters of recommendation\nI frequently get requests for letters of recommendation, and I’m generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I highly recommend asking someone else who can provide more detailed descriptions of your unique strengths.\nIf you are currently enrolled in class with me, and you would like a letter, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. Without such interaction, I will likely write a generic “this student took a class with me” letter, but experience suggests that this type of letter is not likely to help you to be admitted to graduate school.\nIn order for me to write, I will need at least two weeks notice before the first deadline.\n\nA list of all positions to which you are applying along with deadlines for each.\nA recent CV or resume that includes a list of courses taken in your major and an unofficial transcript.\nA personal statement (likely the one you’re sending in one of the applications).\nA description of any notable interactions we’ve had that I should highlight. This means personal interactions, not a description of the material you liked in my course."
-  },
-  {
-    "objectID": "students.html#public-calendar",
-    "href": "students.html#public-calendar",
-    "title": "Information for Students",
-    "section": "Public calendar",
-    "text": "Public calendar"
+    "text": "Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. Before moving North, he spent 8 years on the faculty at Indiana University, Bloomington. His research interests involve the estimation and quantification of prediction risk, especially developing methods for evaluating the predictive abilities of complex dependent data. This includes the application of statistical learning techniques to time series prediction problems, as well as investigations of cross-validation and the bootstrap for risk estimation.\nDaniel did his undergraduate studies at Indiana University where he received a Bachelor of Science in Music with a concentration in cello performance from the Jacobs School of Music and a Bachelor of Arts in economics and mathematics. Prior to graduate school, he worked as a Research Associate at the Federal Reserve Bank of St. Louis. He received his Ph.D. from Carnegie Mellon University in Statistics where he was named graduate student of the year for 2012 and received the Umesh Gavasakar Memorial Thesis Award for his dissertation “Generalization Error Bounds for State Space Models.” In 2017, he was a recipient of the Indiana University Trustees Teaching Award. In 2018, he received an NSF CAREER award. His work has also been supported by grants from the Institute for New Economic Thinking, the Canadian Statistical Sciences Institute, the U.S. Centers for Disease Control, and the National Sciences and Engineering Research Council of Canada.\nSince the beginning of the COVID-19 pandemic, much of Daniel’s applied work has focused on methods for understanding and modelling epidemiological data. He is a core member of the BC COVID-19 Modelling Group and works on research, forecasting, nowcasting, and software development with Carnegie Mellon University’s Delphi Research Group."
   },
   {
     "objectID": "other/index.html",
@@ -67,7 +46,7 @@
     "href": "other/index.html#artwork-and-other-attributions",
     "title": "Links, resources and additional information",
     "section": "Artwork and other attributions",
-    "text": "Artwork and other attributions\nThe artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the aRtsy package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro’s excellent blog and other material, as well as some posts by Tyler Hobbs.\nThis website was built with Quarto along with some custom CSS inspired by the Hugo Apéro theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code.\nIf any of this seems useful, see the underlying Github repo for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators)."
+    "text": "Artwork and other attributions\nThe artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the {aRtsy} package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro’s excellent blog and other material, as well as some posts by Tyler Hobbs.\nThis website was built with Quarto along with some custom CSS inspired by the Hugo Apéro theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code.\nIf any of this seems useful, see the underlying GitHub repo for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators)."
   },
   {
     "objectID": "other/index.html#personal",
@@ -75,111 +54,6 @@
     "title": "Links, resources and additional information",
     "section": "Personal",
     "text": "Personal\nI still play cello occasionally, both privately and with the Vancouver Philharmonic. And I enjoy listening to classical music whenever I get the chance. I’ve only once successfully connected research and music, but this leaves music to be a nice hobby, a total diversion from academic work.\nI should also point to my partner’s website: Tamara Mitchell. She does great work in Hispanic literature, and we’re lucky to be at the same institution. We also have a wonderful cat that we spoil rotten.\n\n\n\nGigi"
-  },
-  {
-    "objectID": "teaching/inet2013.html#instructors",
-    "href": "teaching/inet2013.html#instructors",
-    "title": "INET 2013",
-    "section": "Instructors",
-    "text": "Instructors\nDaniel McDonald\nDepartment of Statistics\nIndiana University, Bloomington\nDarren Homrighausen\nDepartment of Statistics\nColorado State Univeristy"
-  },
-  {
-    "objectID": "teaching/inet2013.html#course-description",
-    "href": "teaching/inet2013.html#course-description",
-    "title": "INET 2013",
-    "section": "Course description",
-    "text": "Course description\nLargely unnoticed by economists, over the last three decades statisticians and computer scientists have developed sophisticated prediction procedures and methods of model selection and forecast evaluation under the rubric of statistical learning theory. These methods have revolutionized pattern recognition and artificial intelligence, and the modern industry of data mining (without the pejorative connotation) would not exist without it.\nIn this short course, we will investigate the connections between modern statistical methodology and standard techniques which are more common in economics and social science. The goal is to develop an understanding for the circumstances under which different statistical methods are appropriate, how methods behave when the model for the data generating process is incorrect, and why some methods can adapt while others cannot. We will focus especially on selecting models with good predictive performance and on the relationships between model complexity, statistical estimation, and the amount of data used to estimate the model.\nThe starting point for statistical learning is the notion of predictive risk and the tradeoff between bias and variance. With this tradeoff in mind, we will investigate the importance of assessing models using training and test data, the benefits of regularization, and the necessity of selecting tuning parameters carefully. We will illustrate each of these issues with some standard econometric procedures applied to financial and economic datasets while at the same time, introducing some potentially new procedures which may be useful in your own research."
-  },
-  {
-    "objectID": "teaching/inet2013.html#schedule-of-topics",
-    "href": "teaching/inet2013.html#schedule-of-topics",
-    "title": "INET 2013",
-    "section": "Schedule of topics",
-    "text": "Schedule of topics\n\nThe predictive viewpoint\nThe bias-variance tradeoff\nEvaluating predictions and estimators\nThe benefits of regularization\nModel selection\nChoosing tuning parameters\nApplication: BVARs and DSGEs\nTools for classification\nApplication: Predicting recessions\nCollaborative filtering and the Netflix prize\nDimension reduction"
-  },
-  {
-    "objectID": "teaching/inet2013.html#suggested-preparation",
-    "href": "teaching/inet2013.html#suggested-preparation",
-    "title": "INET 2013",
-    "section": "Suggested preparation",
-    "text": "Suggested preparation\nIn order to be best prepared for this course, we suggest that you brush up on your econometrics, especially the content about probability. Most useful will be to remind your self about expected values and variance, convergence in probability and consistency, maximum likelihood, ordinary least squares and some time series topics like autoregressive models. Also, remind yourself what a dynamic stochastic general equilibrium model is (you probably know more about this than we do, but perhaps not). Less useful are GMM techniques and cointegration.\nBefore coming to class, we suggest that you take a look at the first three (3) chapters of Cosma Shalizi’s preprint Advanced Data Analysis from an Elementary Point of View. These chapters will serve as a nice introduction to the materials we intend to cover. The rest of the book is great too if you are feeling more ambitious/motivated."
-  },
-  {
-    "objectID": "teaching/inet2013.html#preliminary-exercises",
-    "href": "teaching/inet2013.html#preliminary-exercises",
-    "title": "INET 2013",
-    "section": "Preliminary exercises",
-    "text": "Preliminary exercises\nWe will make a handful of exercises available to try before you come to class. These are mainly for review and little else. They will certainly not be graded, but spending a few hours trying them may help you come to class more prepared. The exercises are here."
-  },
-  {
-    "objectID": "teaching/inet2013.html#data-analysis",
-    "href": "teaching/inet2013.html#data-analysis",
-    "title": "INET 2013",
-    "section": "Data analysis",
-    "text": "Data analysis\nAll of the data analysis examples we use in class will be done in the open source programming language R. R is extremely powerful and easily extensible. We will try to make all of our code available on the website so that you may experiment with it. The software is available for free on CRAN. An official introduction is available there, and many other introductions are available on the web. See for example here. Feel free to download and play around with R, but experience and/or mastery of computer programming is not necessary."
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Stat 406 Methods for Statistical Learning (2023W1)\nStat 550 Techniques of Statistical Consulting (2023W2)\nStat 548 PhD Qualifying Papers"
-  },
-  {
-    "objectID": "teaching/index.html#current-courses",
-    "href": "teaching/index.html#current-courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "Stat 406 Methods for Statistical Learning (2023W1)\nStat 550 Techniques of Statistical Consulting (2023W2)\nStat 548 PhD Qualifying Papers"
-  },
-  {
-    "objectID": "teaching/index.html#links-to-some-materials-from-old-courses",
-    "href": "teaching/index.html#links-to-some-materials-from-old-courses",
-    "title": "Teaching",
-    "section": "Links to some materials from old courses",
-    "text": "Links to some materials from old courses\n\nAt UBC\n\n\nStat 535a Topics in Computational Statistics: Convex Optimization (2021W1)\n\n\n\n\nAt Indiana University, Bloomington\n\nS100 Statistical Literacy (Sp20)\nS432 Applied Linear Models II (Sp16) (Sp17) (Sp18) (Sp20)\nS771/S772/785 Seminar on Statistical Theory (Fa16–Sp17) (Fa19–Sp20)\nS782 Topics in Statistical Learning Theory (Fa17)\n\n\n\nAt the University of Chicago, Booth School of Business\n\n41-911 Advanced Econometrics (Aut18)\n\n\n\nAt the Institute for New Economic Thinking\n\nShort Course on Machine Learning (Sp13) (Sp15) — As part of the Young Scholars Institute at the INET Hong Kong conference from 2–3 April 2013, Darren Homrighausen and I taught a course on statistical learning. I retaught the course in New York, 24–26 February 2015."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daniel J. McDonald",
-    "section": "",
-    "text": "Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. His research interests involve the estimation and quantification of prediction risk, especially for structured or dependent data. This includes the application of statistical learning techniques to time series prediction problems for neuroscience, genetics, economics, and epidemiology.\nAssociate Professor Department of Statistics University of British Columbia\n3106 Earth Sciences Building 2207 Main Mall Vancouver, BC V6T 1Z4 Canada"
-  },
-  {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
-  },
-  {
-    "objectID": "research/index.html#overview",
-    "href": "research/index.html#overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
-  },
-  {
-    "objectID": "research/index.html#recent-papers-and-preprints",
-    "href": "research/index.html#recent-papers-and-preprints",
-    "title": "Research",
-    "section": "Recent papers and preprints",
-    "text": "Recent papers and preprints\n\nAssociative White Matter Tracts Selectively Predict Sensorimotor Learning\n\nVinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F\n\nTechnical Report, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSparsegl: An R Package for Estimating Sparse Group Lasso\n\nLiang, X, Cohen, A, Heinsfeld, AS, Pestilli, F, et al. \n\nJournal of Statistical Software, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSmooth Multi-Period Forecasting with Application to Prediction of COVID-19 Cases\n\nTuzhilina, E, Hastie, TJ, McDonald, DJ, Tay, JK, et al. \n\nJournal of Computational and Graphical Statistics, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nLess is More: Balancing Noise Reduction and Data Retention in fMRI with Projection Scrubbing\n\nPham, D, Ding, L, McDonald, DJ, Nebel, MB, et al. \n\nNeuroimage, 270, 119972, 2023\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\n  View all publications"
-  },
-  {
-    "objectID": "research/index.html#slides-for-recent-talks",
-    "href": "research/index.html#slides-for-recent-talks",
-    "title": "Research",
-    "section": "Slides for recent talks",
-    "text": "Slides for recent talks\n\n{epiprocess} and {epipredict}: R packages for signal processing and forecasting \nAdvice on applying to graduate school \nMarkov switching state space models for uncovering musical interpretation \nYour model is beautiful, but does it predict? \nStatistical approaches to epidemic forecasting: Evaluation and software \nTrend filtering in exponential families \nAlgorithms for Estimating Trends in Global Temperature Volatility \nRegularization, optimization, and approximation: The benefits of a convex combination \nMatrix sketching for alternating direction method of multipliers optimization \nPredicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression"
-  },
-  {
-    "objectID": "research/all-pubs.html",
-    "href": "research/all-pubs.html",
-    "title": "All papers and preprints",
-    "section": "",
-    "text": "Associative White Matter Tracts Selectively Predict Sensorimotor Learning\n\nVinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F\n\nTechnical Report, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSparsegl: An R Package for Estimating Sparse Group Lasso\n\nLiang, X, Cohen, A, Heinsfeld, AS, Pestilli, F, et al. \n\nJournal of Statistical Software, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSmooth Multi-Period Forecasting with Application to Prediction of COVID-19 Cases\n\nTuzhilina, E, Hastie, TJ, McDonald, DJ, Tay, JK, et al. \n\nJournal of Computational and Graphical Statistics, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nLess is More: Balancing Noise Reduction and Data Retention in fMRI with Projection Scrubbing\n\nPham, D, Ding, L, McDonald, DJ, Nebel, MB, et al. \n\nNeuroimage, 270, 119972, 2023\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nExponential Family Trend Filtering on Lattices\n\nSadhanala, V, Bassett, R, Sharpnack, J, McDonald, DJ\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\nEvaluation of Individual and Ensemble Probabilistic Forecasts of COVID-19 Mortality in the United States\n\nCramer, EY, Ray, EL, Lopez, VK, Bracher, J, et al. \n\nProceedings of the National Academy of Sciences, 119, e2113561119, 2022\n\n\n\n journal\n\n arXiv\n\n\n\n\nSufficient Principal Component Regression for Genomics\n\nDing, L, Zentner, GE, McDonald, DJ\n\nBioinformatics Advances, 2, vbac033, 2022\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nAn Open Repository of Real-Time COVID-19 Indicators\n\nReinhart, A, Brooks, L, Jahja, M, Rumack, A, et al. \n\nProceedings of the National Academy of Sciences, 118, e2111452118, 2021\n\n\n\n journal\n\n arXiv\n\n\n\n\nCan Auxiliary Indicators Improve COVID-19 Forecasting and Hotspot Prediction?\n\nMcDonald, DJ, Bien, J, Green, A, Hu, AJ, et al. \n\nProceedings of the National Academy of Sciences, 118, e2111453118, 2021\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nFlexible Analysis of TSS Mapping Data and Detection of TSS Shifts with TSRexploreR\n\nPolicastro, RA, McDonald, DJ, Brendel, VP, Zentner, GE\n\nNAR Genomics and Bioinformatics, 3, 1–10, 2021\n\n\n\n journal\n\n pdf\n\n code\n\n\n\n\nMarkov-Switching State Space Models for Uncovering Musical Interpretation\n\nMcDonald, DJ, McBride, M, Gu, Y, Raphael, C\n\nAnnals of Applied Statistics, 15, 1147–1170, 2021\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nCompressed and Penalized Linear Regression\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Computational and Graphical Statistics, 29, 309–322, 2020\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nBook Review: Sufficient Dimension Reduction: Methods and Applications with R\n\nMcDonald, DJ\n\nJournal of the American Statistical Association, 115, NA, 2020\n\n\n\n journal\n\n\n\n\nAlgorithms for Estimating Trends in Global Temperature Volatility\n\nKhodadadi, A, McDonald, DJ\n\nProceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI-19), 2019\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nA Study on Tuning Parameter Selection for the High-Dimensional Lasso\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Statistical Computation and Simulation, 88, 2865–2892, 2018\n\n\n\n journal\n\n arXiv\n\n\n\n\nRademacher Complexity of Stationary Sequences\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2017\n\n\n\n arXiv\n\n\n\n\nMinimax Density Estimation for Growing Dimension\n\nMcDonald, DJ\n\nProceedings of the Twentieth International Conference on Artificial Intelligence and Statistics (AISTATS), 54, 194–203, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nPredicting Phenotypes from Microarrays using Amplified, Initially Marginal, Eigenvector Regression\n\nDing, L, McDonald, DJ\n\nBioinformatics, 33, i350–i358, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nRisk Consistency of Cross-Validation for Lasso-Type Procedures\n\nHomrighausen, D, McDonald, DJ\n\nStatistica Sinica, 27, 1017–1036, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nNonparametric Risk Bounds for Time-Series Forecasting\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nJournal of Machine Learning Research, 18, 1–40, 2017\n\n\n\n journal\n\n arXiv\n\n\n\n\nOn the Nystrom and Column-Sampling Methods for the Approximate Principal Components Analysis of Large Data Sets\n\nHomrighausen, D, McDonald, DJ\n\nJournal of Computational and Graphical Statistics, 25, 344–362, 2016\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nDoes Increased Sexual Frequency Enhance Happiness?\n\nLoewenstein, G, Krishnamurti, T, Kopsic, J, McDonald, DJ\n\nJournal of Economic Behavior and Organization, 116, 206–218, 2015\n\n\n\n journal\n\n\n\n\nEstimating Beta-Mixing Coefficients via Histograms\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nElectronic Journal of Statistics, 9, 2855–2883, 2015\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nLeave-One-Out Cross-Validation is Risk Consistent for Lasso\n\nHomrighausen, D, McDonald, DJ\n\nMachine Learning, 97, 65–78, 2014\n\n\n\n journal\n\n arXiv\n\n\n\n\nThe Lasso, Persistence, and Cross-Validation\n\nHomrighausen, D, McDonald, DJ\n\nProceedings of the Thirtieth International Conference on Machine Learning (ICML), 28, 1031–1039, 2013\n\n\n\n journal\n\n arXiv\n\n\n\n\nGeneralization Error Bounds for State-Space Models\n\nMcDonald, DJ\n\nPh.D. Dissertation, 2012\n\n\n\n pdf\n\n\n\n\nThe Impact of Price Discounts and Calorie Messaging on Beverage Consumption: A Multi-Site Field Study\n\nJue, JJ, Press, MJ, McDonald, DJ, Volpp, KG, et al. \n\nPreventive Medicine, 55, 629–633, 2012\n\n\n\n journal\n\n\n\n\nSpectral Approximations in Machine Learning\n\nHomrighausen, D, McDonald, DJ\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nEstimated VC Dimension for Risk Bounds\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nGeneralization Error Bounds for Stationary Autoregressive Models\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nTechnical Report, 2011\n\n\n\n arXiv\n\n\n\n\nEstimating Beta-Mixing Coefficients\n\nMcDonald, DJ, Shalizi, CR, Schervish, M\n\nProceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics (AISTATS), 15, 516–524, 2011\n\n\n\n journal\n\n arXiv\n\n\n\n\nThe Behavior of Weight-Loss Study Participants in Response to Incentives\n\nMcDonald, DJ, Loewenstein, GF, Kadane, J\n\nTechnical Report, 2009\n\n\n\n pdf"
   },
   {
     "objectID": "teaching/stat548.html",
@@ -231,6 +105,104 @@
     "text": "Footnotes\n\n\nThanks to Trevor and Ben. I’m stealing most of this from them.↩︎"
   },
   {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Stat 406 Methods for Statistical Learning (2023W1)\nStat 550 Techniques of Statistical Consulting (2023W2)\nStat 548 PhD Qualifying Papers"
+  },
+  {
+    "objectID": "teaching/index.html#current-courses",
+    "href": "teaching/index.html#current-courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "Stat 406 Methods for Statistical Learning (2023W1)\nStat 550 Techniques of Statistical Consulting (2023W2)\nStat 548 PhD Qualifying Papers"
+  },
+  {
+    "objectID": "teaching/index.html#links-to-some-materials-from-old-courses",
+    "href": "teaching/index.html#links-to-some-materials-from-old-courses",
+    "title": "Teaching",
+    "section": "Links to some materials from old courses",
+    "text": "Links to some materials from old courses\n\nAt UBC\n\n\nStat 535a Topics in Computational Statistics: Convex Optimization (2021W1)\n\n\n\n\nAt Indiana University, Bloomington\n\nS100 Statistical Literacy (Sp20)\nS432 Applied Linear Models II (Sp16) (Sp17) (Sp18) (Sp20)\nS771/S772/785 Seminar on Statistical Theory (Fa16–Sp17) (Fa19–Sp20)\nS782 Topics in Statistical Learning Theory (Fa17)\n\n\n\nAt the University of Chicago, Booth School of Business\n\n41-911 Advanced Econometrics (Aut18)\n\n\n\nAt the Institute for New Economic Thinking\n\nShort Course on Machine Learning (Sp13) (Sp15) — As part of the Young Scholars Institute at the INET Hong Kong conference from 2–3 April 2013, Darren Homrighausen and I taught a course on statistical learning. I retaught the course in New York, 24–26 February 2015."
+  },
+  {
+    "objectID": "students.html",
+    "href": "students.html",
+    "title": "Information for Students",
+    "section": "",
+    "text": "Jiaping Liu, PhD in Statistics\nRachel Lobay, PhD in Statistics\nWakeel Adekunle Kasali, MSc in Statistics (co-supervised with Nancy Heckman)\n\n\n\n\n\nTigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada\nElvis Cai, MSc in Statistics (co-supervised with Paul Gustafson, UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences\nWilliam Laplante, MSc in Statistics (co-supervised with Ben Bloem-Reddy, UBC 2023);\nKen Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo\nShuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation\nXiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC\nWei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon\nAaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB\nLei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon\nRobert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB\nHaoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB\nMackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB\nArash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions\nMichael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic\nJia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo\nLijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB"
+  },
+  {
+    "objectID": "students.html#research-group",
+    "href": "students.html#research-group",
+    "title": "Information for Students",
+    "section": "",
+    "text": "Jiaping Liu, PhD in Statistics\nRachel Lobay, PhD in Statistics\nWakeel Adekunle Kasali, MSc in Statistics (co-supervised with Nancy Heckman)\n\n\n\n\n\nTigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada\nElvis Cai, MSc in Statistics (co-supervised with Paul Gustafson, UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences\nWilliam Laplante, MSc in Statistics (co-supervised with Ben Bloem-Reddy, UBC 2023);\nKen Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo\nShuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation\nXiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC\nWei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon\nAaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB\nLei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon\nRobert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB\nHaoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB\nMackenzie Turner, CEW&T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB\nArash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions\nMichael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic\nJia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo\nLijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB"
+  },
+  {
+    "objectID": "students.html#applying-to-ubc-statistics-or-mds-programs",
+    "href": "students.html#applying-to-ubc-statistics-or-mds-programs",
+    "title": "Information for Students",
+    "section": "Applying to UBC Statistics or MDS Programs",
+    "text": "Applying to UBC Statistics or MDS Programs\nI generally have no special powers when it comes to being admitted to MSc/PhD or MDS programs. At UBC, students are admitted to the department before choosing an advisor later in their program. If you are interested, I encourage you to consult the department website.\nIf you want to learn more, your best bet is to email the Graduate Admissions Officer."
+  },
+  {
+    "objectID": "students.html#requesting-letters-of-recommendation",
+    "href": "students.html#requesting-letters-of-recommendation",
+    "title": "Information for Students",
+    "section": "Requesting letters of recommendation",
+    "text": "Requesting letters of recommendation\nI frequently get requests for letters of recommendation, and I’m generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I highly recommend asking someone else who can provide more detailed descriptions of your unique strengths.\nIf you are currently enrolled in class with me, and you would like a letter, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. Without such interaction, I will likely write a generic “this student took a class with me” letter, but experience suggests that this type of letter is not likely to help you to be admitted to graduate school.\nIn order for me to write, I will need at least two weeks notice before the first deadline.\n\nA list of all positions to which you are applying along with deadlines for each.\nA recent CV or resume that includes a list of courses taken in your major and an unofficial transcript.\nA personal statement (likely the one you’re sending in one of the applications).\nA description of any notable interactions we’ve had that I should highlight. This means personal interactions, not a description of the material you liked in my course.\nIf you have a preferred name as well as a given name, please list both. I I need to be able to connect your email to your application and potentially to your Canvas profile."
+  },
+  {
+    "objectID": "students.html#public-calendar",
+    "href": "students.html#public-calendar",
+    "title": "Information for Students",
+    "section": "Public calendar",
+    "text": "Public calendar"
+  },
+  {
+    "objectID": "teaching/inet2013.html#instructors",
+    "href": "teaching/inet2013.html#instructors",
+    "title": "INET 2013",
+    "section": "Instructors",
+    "text": "Instructors\nDaniel McDonald\nDepartment of Statistics\nIndiana University, Bloomington\nDarren Homrighausen\nDepartment of Statistics\nColorado State Univeristy"
+  },
+  {
+    "objectID": "teaching/inet2013.html#course-description",
+    "href": "teaching/inet2013.html#course-description",
+    "title": "INET 2013",
+    "section": "Course description",
+    "text": "Course description\nLargely unnoticed by economists, over the last three decades statisticians and computer scientists have developed sophisticated prediction procedures and methods of model selection and forecast evaluation under the rubric of statistical learning theory. These methods have revolutionized pattern recognition and artificial intelligence, and the modern industry of data mining (without the pejorative connotation) would not exist without it.\nIn this short course, we will investigate the connections between modern statistical methodology and standard techniques which are more common in economics and social science. The goal is to develop an understanding for the circumstances under which different statistical methods are appropriate, how methods behave when the model for the data generating process is incorrect, and why some methods can adapt while others cannot. We will focus especially on selecting models with good predictive performance and on the relationships between model complexity, statistical estimation, and the amount of data used to estimate the model.\nThe starting point for statistical learning is the notion of predictive risk and the tradeoff between bias and variance. With this tradeoff in mind, we will investigate the importance of assessing models using training and test data, the benefits of regularization, and the necessity of selecting tuning parameters carefully. We will illustrate each of these issues with some standard econometric procedures applied to financial and economic datasets while at the same time, introducing some potentially new procedures which may be useful in your own research."
+  },
+  {
+    "objectID": "teaching/inet2013.html#schedule-of-topics",
+    "href": "teaching/inet2013.html#schedule-of-topics",
+    "title": "INET 2013",
+    "section": "Schedule of topics",
+    "text": "Schedule of topics\n\nThe predictive viewpoint\nThe bias-variance tradeoff\nEvaluating predictions and estimators\nThe benefits of regularization\nModel selection\nChoosing tuning parameters\nApplication: BVARs and DSGEs\nTools for classification\nApplication: Predicting recessions\nCollaborative filtering and the Netflix prize\nDimension reduction"
+  },
+  {
+    "objectID": "teaching/inet2013.html#suggested-preparation",
+    "href": "teaching/inet2013.html#suggested-preparation",
+    "title": "INET 2013",
+    "section": "Suggested preparation",
+    "text": "Suggested preparation\nIn order to be best prepared for this course, we suggest that you brush up on your econometrics, especially the content about probability. Most useful will be to remind your self about expected values and variance, convergence in probability and consistency, maximum likelihood, ordinary least squares and some time series topics like autoregressive models. Also, remind yourself what a dynamic stochastic general equilibrium model is (you probably know more about this than we do, but perhaps not). Less useful are GMM techniques and cointegration.\nBefore coming to class, we suggest that you take a look at the first three (3) chapters of Cosma Shalizi’s preprint Advanced Data Analysis from an Elementary Point of View. These chapters will serve as a nice introduction to the materials we intend to cover. The rest of the book is great too if you are feeling more ambitious/motivated."
+  },
+  {
+    "objectID": "teaching/inet2013.html#preliminary-exercises",
+    "href": "teaching/inet2013.html#preliminary-exercises",
+    "title": "INET 2013",
+    "section": "Preliminary exercises",
+    "text": "Preliminary exercises\nWe will make a handful of exercises available to try before you come to class. These are mainly for review and little else. They will certainly not be graded, but spending a few hours trying them may help you come to class more prepared. The exercises are here."
+  },
+  {
+    "objectID": "teaching/inet2013.html#data-analysis",
+    "href": "teaching/inet2013.html#data-analysis",
+    "title": "INET 2013",
+    "section": "Data analysis",
+    "text": "Data analysis\nAll of the data analysis examples we use in class will be done in the open source programming language R. R is extremely powerful and easily extensible. We will try to make all of our code available on the website so that you may experiment with it. The software is available for free on CRAN. An official introduction is available there, and many other introductions are available on the web. See for example here. Feel free to download and play around with R, but experience and/or mastery of computer programming is not necessary."
+  },
+  {
     "objectID": "teaching/inet2015.html#instructor",
     "href": "teaching/inet2015.html#instructor",
     "title": "INET 2015",
@@ -273,11 +245,11 @@
     "text": "Data analysis\nAll of the data analysis examples we use in class will be done in the open source programming language R. R is extremely powerful and easily extensible. We will try to make all of our code available on the website so that you may experiment with it. The software is available for free on CRAN. An official introduction is available there, and many other introductions are available on the web. See for example here. Feel free to download and play around with R, but experience and/or mastery of computer programming is not necessary."
   },
   {
-    "objectID": "biography.html",
-    "href": "biography.html",
-    "title": "Biography",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daniel J. McDonald",
     "section": "",
-    "text": "Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. Before moving North, he spent 8 years on the faculty at Indiana University, Bloomington. His research interests involve the estimation and quantification of prediction risk, especially developing methods for evaluating the predictive abilities of complex dependent data. This includes the application of statistical learning techniques to time series prediction problems, as well as investigations of cross-validation and the bootstrap for risk estimation.\nDaniel did his undergraduate studies at Indiana University where he received a Bachelor of Science in Music with a concentration in cello performance from the Jacobs School of Music and a Bachelor of Arts in economics and mathematics. Prior to graduate school, he worked as a Research Associate at the Federal Reserve Bank of St. Louis. He received his Ph.D. from Carnegie Mellon University in Statistics where he was named graduate student of the year for 2012 and received the Umesh Gavasakar Memorial Thesis Award for his dissertation “Generalization Error Bounds for State Space Models.” In 2017, he was a recipient of the Indiana University Trustees Teaching Award. In 2018, he received an NSF CAREER award. His work has also been supported by grants from the Institute for New Economic Thinking, the Canadian Statistical Sciences Institute, the U.S. Centers for Disease Control, and the National Sciences and Engineering Research Council of Canada.\nSince the beginning of the COVID-19 pandemic, much of Daniel’s applied work has focused on methods for understanding and modelling epidemiological data. He is a core member of the BC COVID-19 Modelling Group and works on research, forecasting, nowcasting, and software development with Carnegie Mellon University’s Delphi Research Group."
+    "text": "Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. His research interests involve the estimation and quantification of prediction risk, especially for structured or dependent data. This includes the application of statistical learning techniques to time series prediction problems for neuroscience, genetics, economics, and epidemiology.\nAssociate Professor Department of Statistics University of British Columbia\n3106 Earth Sciences Building 2207 Main Mall Vancouver, BC V6T 1Z4 Canada"
   },
   {
     "objectID": "other/market-advice.html",
@@ -362,5 +334,33 @@
     "title": "Advice for the academic job market",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nI’m being facetious here. Don’t tell me you like long walks on the beach. But do tell me anything that you think it is important for me to know about you. Highlight the most important things from the rest of your materials, and point out anything else I should know that doesn’t have a natural place.↩︎\nThis took a long time and iteration to create. And it’s not important to get this complicated. In fact, you probably shouldn’t. But do something different.↩︎\nWhen I performed music regularly, there would be passages that was very challenging. You had to practice them until they were really easy. Then keep practicing until you could play it with ease, while making it seem hard. Theorems are like this. They should be immediately intelligible to the audience, but seem like they took a lot of work to prove. But don’t show the proof.↩︎\nEconomics and finance departments almost always do this.↩︎\nI can say more. Feel free to ask.↩︎"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
+  },
+  {
+    "objectID": "research/index.html#overview",
+    "href": "research/index.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
+  },
+  {
+    "objectID": "research/index.html#recent-papers-and-preprints",
+    "href": "research/index.html#recent-papers-and-preprints",
+    "title": "Research",
+    "section": "Recent papers and preprints",
+    "text": "Recent papers and preprints\n\nAssociative White Matter Tracts Selectively Predict Sensorimotor Learning\n\nVinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F\n\nTechnical Report, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSparsegl: An R Package for Estimating Sparse Group Lasso\n\nLiang, X, Cohen, A, Heinsfeld, AS, Pestilli, F, et al. \n\nJournal of Statistical Software, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nSmooth Multi-Period Forecasting with Application to Prediction of COVID-19 Cases\n\nTuzhilina, E, Hastie, TJ, McDonald, DJ, Tay, JK, et al. \n\nJournal of Computational and Graphical Statistics, forthcoming, 1, 2023\n\n\n\n arXiv\n\n code\n\n\n\n\nLess is More: Balancing Noise Reduction and Data Retention in fMRI with Projection Scrubbing\n\nPham, D, Ding, L, McDonald, DJ, Nebel, MB, et al. \n\nNeuroimage, 270, 119972, 2023\n\n\n\n journal\n\n arXiv\n\n code\n\n\n\n\nEmpirical Macroeconomics and DSGE Modeling in Statistical Perspective\n\nMcDonald, DJ, Shalizi, CR\n\nTechnical Report, 2022\n\n\n\n arXiv\n\n code\n\n\n\n\n  View all publications"
+  },
+  {
+    "objectID": "research/index.html#slides-for-recent-talks",
+    "href": "research/index.html#slides-for-recent-talks",
+    "title": "Research",
+    "section": "Slides for recent talks",
+    "text": "Slides for recent talks\n\n{epiprocess} and {epipredict}: R packages for signal processing and forecasting \nAdvice on applying to graduate school \nMarkov switching state space models for uncovering musical interpretation \nYour model is beautiful, but does it predict? \nStatistical approaches to epidemic forecasting: Evaluation and software \nTrend filtering in exponential families \nAlgorithms for Estimating Trends in Global Temperature Volatility \nRegularization, optimization, and approximation: The benefits of a convex combination \nMatrix sketching for alternating direction method of multipliers optimization \nPredicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression"
   }
 ]
