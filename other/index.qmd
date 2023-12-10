@@ -50,11 +50,11 @@ principal components analysis.
 
 ## Artwork and other attributions
 
-The artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the [aRtsy](https://koenderks.github.io/aRtsy/index.html) package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro's excellent [blog](https://blog.djnavarro.net/#category=Art) and other material, as well as some posts by [Tyler Hobbs](https://tylerxhobbs.com/essays/2020/flow-fields). 
+The artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the [`{aRtsy}`](https://koenderks.github.io/aRtsy/index.html) package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro's excellent [blog](https://blog.djnavarro.net/#category=Art) and other material, as well as some posts by [Tyler Hobbs](https://tylerxhobbs.com/essays/2020/flow-fields). 
 
 This website was built with [Quarto](https://quarto.org) along with some custom CSS inspired by the [Hugo Apéro](https://hugo-apero.netlify.app/contributors/) theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code. 
 
-If any of this seems useful, see the underlying [Github repo](https://github.com/dajmcdon/dajmcdon.github.io) for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators).
+If any of this seems useful, see the underlying [GitHub repo](https://github.com/dajmcdon/dajmcdon.github.io) for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators).
 
 ## Personal
 

@@ -69,6 +69,9 @@ applications).
 -   A description of any notable interactions we've had that I should highlight.
 This means personal interactions, not a description of the material you liked
 in my course.
+-   If you have a preferred name as well as a given name, please list both. I 
+I need to be able to connect your email to your application and potentially to
+your Canvas profile.
 
 
 ## Public calendar {#public-calendar}
