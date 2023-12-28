@@ -44,6 +44,16 @@ li {
   }
 }
 
+.btn-outline-warning {
+  color: $warning;
+  border-color: $warning;
+  &:hover {
+    color: #fff;
+    background-color: $warning;
+    border-color: $warning;
+  }
+}
+
 h1,
 h2,
 h3,

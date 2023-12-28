@@ -11,7 +11,7 @@ Through this lens, my research can be divided into four intersecting areas: (1) 
 
 ```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, message=FALSE}
 #| column: screen-left
-source(here::here("assets", "pub-resources", "djm_flow.R"))
+source(here::here("_rcode", "djm_flow.R"))
 pal <- c("#01364f", "#01364f", "#247c86", "#84231e", "#84231e")
 djm_flow(pal, nlines = 5000, 
          tapering = "bellshaped", noise_types = "perlin", 
@@ -27,7 +27,7 @@ djm_flow(pal, nlines = 5000,
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bib2df)
 library(dplyr)
-df <- bib2df(here::here("assets", "pub-resources", "papers.bib"), separate_names = TRUE)
+df <- bib2df(here::here("_biblio", "papers.bib"), separate_names = TRUE)
 
 keep_fields <- toupper(c(
   "category", "author", "booktitle", "edition",
@@ -37,7 +37,7 @@ keep_fields <- toupper(c(
   "code", "pdf"))
 
 df <- df[, keep_fields] %>% arrange(desc(YEAR))
-source(here::here("assets", "pub-resources", "render-pubs.R"))
+source(here::here("_rcode", "render-pubs.R"))
 
 df2 <- df %>%
   transmute(
@@ -64,10 +64,8 @@ for (i in 1:5) {
 
 <br>
 
-<a href="all-pubs.qmd">
-<button type="button" class="btn btn-outline-warning">
+<a href="all-pubs.qmd" class="btn btn-outline-warning">
 View all publications
-</button>
 </a>
 
 
