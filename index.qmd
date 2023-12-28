@@ -23,8 +23,6 @@ about:
 <i class="ai ai-orcid"></i></a> 
 <a href="mailto:daniel@stat.ubc.ca"> 
 <i class="bi bi-envelope"></i></a> 
-<a href="research/docs/DanielMcDonaldCV.pdf">
-<i class="ai ai-cv"></i></a> 
 </div>
 
 Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. His research interests involve the estimation and quantification of prediction risk, especially for structured or dependent data. This includes the application of statistical learning techniques to time series prediction problems for neuroscience, genetics, economics, and epidemiology.
