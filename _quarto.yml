@@ -8,7 +8,9 @@ website:
   favicon: assets/img/djm.ico
   image: assets/img/djm.png
   navbar:
-    #logo: img/djm.png
+    logo: assets/img/djm.png
+    logo-alt: "DJM"
+    title: false
     background: light
     collapse: false
     right:
