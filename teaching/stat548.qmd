@@ -125,9 +125,9 @@ Some resources on technical/mathematical writing:
   *Themes:* Non-parametric regression, computation.  
   *Project:* Compare the methods with the `{trendfilter}` package in terms of speed/accuracy. Describe any advantages or disadvantages.
   
-2. Schoenberg. [Estimating Covid-19 Transmission Time Using Hawkes Point Processes](https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/52942?confirm=d5eddae0)  
-  *Themes:* Time series, infectious disease, point processes.  
-  *Project:* Apply the methods to BC Case Data. Comment on how your results compare to published estimates.
+2. ~~Schoenberg. [Estimating Covid-19 Transmission Time Using Hawkes Point Processes](https://www.e-publications.org/ims/submission/AOAS/user/submissionFile/52942?confirm=d5eddae0)~~  
+  ~~*Themes:* Time series, infectious disease, point processes.~~  
+  ~~*Project:* Apply the methods to BC Case Data. Comment on how your results compare to published estimates.~~
   
 3. Lamprinakou, Gandy, and McCoy. [Using a latent Hawkes process for epidemiological modelling](https://doi.org/10.1371/journal.pone.0281370)  
   *Themes:* Time series, infectious disease, point processes.  
