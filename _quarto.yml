@@ -9,6 +9,7 @@ website:
   image: assets/img/djm.png
   navbar:
     logo: assets/img/djm.png
+    search: false
     logo-alt: "DJM"
     title: false
     background: light
@@ -20,13 +21,13 @@ website:
         text: RESEARCH
       - href: teaching/index.qmd
         text: TEACHING
-      - href: students.qmd
+      - href: students/index.qmd
         text: STUDENTS
       - href: other/index.qmd
         text: OTHER
   page-footer:
     border: false
-    right: "© 2023, Daniel J. McDonald"
+    right: "© 2024, Daniel J. McDonald"
     center: |
       <a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a>
       <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>

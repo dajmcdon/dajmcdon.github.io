@@ -5,6 +5,10 @@ title: "Information for Students"
 
 ## Research group
 
+### Postdoctoral fellowship
+
+I currently have an opening to hire a postdoctoral fellow, with a start date of September 2024 or earlier. See [here](postdoc.qmd) for more information.
+
 ### Current members
 
 - Jiaping Liu, PhD in Statistics
