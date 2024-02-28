@@ -13,7 +13,8 @@ website:
     logo-alt: "DJM"
     title: false
     background: light
-    collapse: false
+    collapse: true
+    collapse-below: md
     right:
       - href: biography.qmd
         text: BIOGRAPHY
