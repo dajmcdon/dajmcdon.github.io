@@ -77,6 +77,7 @@ library(tibble)
 library(stringr)
 talks <- tribble(
   ~ title, ~ ref,
+  "Introduction to epidemiological forecasting", "https://dajmcdon.github.io/vanml-epifcast/",
   "{epiprocess} and {epipredict}: R packages for signal processing and forecasting", "https://dajmcdon.github.io/cdc-tooling-packages/",
   "Advice on applying to graduate school", "https://dajmcdon.github.io/grad-school-pointers/",
   "Markov switching state space models for uncovering musical interpretation", "https://dajmcdon.github.io/chopin-2022-slides/",
