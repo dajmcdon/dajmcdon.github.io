@@ -48,7 +48,7 @@ The report should be submitted as a GitHub repository based on the template [her
 
 Some resources on technical/mathematical writing:
 
-* Nancy Heckman's page on [writing](http://ugrad.stat.ubc.ca/~nancy/writing/)
+* Nancy Heckman's page on [writing](https://www.ugrad.stat.ubc.ca/~nancy/writing)
 * Harry Joe's [advice and writing resources for 548](https://www.stat.ubc.ca/~harry/papers/)
 * Trevor Campbell's [How to Explain Things talk](https://docs.google.com/presentation/d/13vwchlzQAZjjfiI3AiBC_kM-syI6GJKzbuZoLxgy1a4/edit#slide=id.g4fbcbb044c_0_0)
 * Knuth, Larrabee, and Roberts on [mathematical writing](http://www.jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf)
