@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -149,6 +149,21 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 </div>
 <div class="cell column-body">
 <h5 class="anchored">
+Exponential Family Trend Filtering on Lattices
+</h5>
+Sadhanala, V, Bassett, R, Sharpnack, J, McDonald, DJ
+<p>
+Electronic Journal of Statistics, forthcoming, NA, 2024
+</p>
+<footer>
+<p class="db pt1">
+<a href="https://arxiv.org/abs/2209.09175" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="ai ai-arxiv"></i> arXiv</button></a>
+
+<a href="https://github.com/dajmcdon/tflattices" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-code-slash"></i> code</button></a>
+
+</p>
+</footer>
+<h5 class="anchored">
 Associative White Matter Tracts Selectively Predict Sensorimotor Learning
 </h5>
 Vinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F
@@ -254,21 +269,6 @@ Technical Report, 2022
 <a href="https://arxiv.org/abs/2210.16224" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="ai ai-arxiv"></i> arXiv</button></a>
 
 <a href="https://github.com/dajmcdon/dsges" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-code-slash"></i> code</button></a>
-
-</p>
-</footer>
-<h5 class="anchored">
-Exponential Family Trend Filtering on Lattices
-</h5>
-Sadhanala, V, Bassett, R, Sharpnack, J, McDonald, DJ
-<p>
-Technical Report, 2022
-</p>
-<footer>
-<p class="db pt1">
-<a href="https://arxiv.org/abs/2209.09175" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="ai ai-arxiv"></i> arXiv</button></a>
-
-<a href="https://github.com/dajmcdon/spatio-temporal-exp-fam" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-code-slash"></i> code</button></a>
 
 </p>
 </footer>
@@ -774,6 +774,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dajmcdon\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -808,7 +826,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

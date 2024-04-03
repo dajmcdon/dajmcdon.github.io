@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -163,6 +163,21 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <section id="recent-papers-and-preprints" class="level2">
 <h2 class="anchored" data-anchor-id="recent-papers-and-preprints">Recent papers and preprints</h2>
 <h5 class="anchored">
+Exponential Family Trend Filtering on Lattices
+</h5>
+Sadhanala, V, Bassett, R, Sharpnack, J, McDonald, DJ
+<p>
+Electronic Journal of Statistics, forthcoming, NA, 2024
+</p>
+<footer>
+<p class="db pt1">
+<a href="https://arxiv.org/abs/2209.09175" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="ai ai-arxiv"></i> arXiv</button></a>
+
+<a href="https://github.com/dajmcdon/tflattices" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-code-slash"></i> code</button></a>
+
+</p>
+</footer>
+<h5 class="anchored">
 Associative White Matter Tracts Selectively Predict Sensorimotor Learning
 </h5>
 Vinci-Booher, S, McDonald, DJ, Berquist, E, Pestilli, F
@@ -222,29 +237,13 @@ Journal of Statistical Software, forthcoming, 1, 2023
 
 </p>
 </footer>
-<h5 class="anchored">
-Smooth Multi-Period Forecasting with Application to Prediction of COVID-19 Cases
-</h5>
-Tuzhilina, E, Hastie, TJ, McDonald, DJ, Tay, JK, et al.&nbsp;
-<p>
-Journal of Computational and Graphical Statistics, forthcoming, 1, 2023
-</p>
-<footer>
-<p class="db pt1">
-<a href="https://doi.org/10.1080/10618600.2023.2285337" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-link-45deg"></i> journal</button></a>
-
-<a href="https://arxiv.org/abs/2202.09723" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="ai ai-arxiv"></i> arXiv</button></a>
-
-<a href="https://github.com/ElenaTuzhilina/MPF" class="btn-links mr2 ba dib" target="_blank"><button type="button" class="btn btn-outline-primary btn-sm"><i class="bi bi-code-slash"></i> code</button></a>
-
-</p>
-</footer>
 <p><br></p>
 <p><a href="../research/all-pubs.html" class="btn btn-outline-warning"> View all publications </a></p>
 </section>
 <section id="slides-for-recent-talks" class="level2">
 <h2 class="anchored" data-anchor-id="slides-for-recent-talks">Slides for recent talks</h2>
 <ul>
+<li><p><a href="https://dajmcdon.github.io/vanml-epifcast/" target="_blank">Introduction to epidemiological forecasting</a> <i class="bi bi-box-arrow-up-right"></i></p></li>
 <li><p><a href="https://dajmcdon.github.io/cdc-tooling-packages/" target="_blank">{epiprocess} and {epipredict}: R packages for signal processing and forecasting</a> <i class="bi bi-box-arrow-up-right"></i></p></li>
 <li><p><a href="https://dajmcdon.github.io/grad-school-pointers/" target="_blank">Advice on applying to graduate school</a> <i class="bi bi-box-arrow-up-right"></i></p></li>
 <li><p><a href="https://dajmcdon.github.io/chopin-2022-slides/" target="_blank">Markov switching state space models for uncovering musical interpretation</a> <i class="bi bi-box-arrow-up-right"></i></p></li>
@@ -340,6 +339,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dajmcdon\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -374,7 +391,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
