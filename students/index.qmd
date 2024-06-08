@@ -5,14 +5,14 @@ title: "Information for Students"
 
 ## Research group
 
-### Postdoctoral fellowship
-
-I currently have an opening to hire a postdoctoral fellow, with a start date of September 2024 or earlier. See [here](postdoc.qmd) for more information.
 
 ### Current members
 
 - Jiaping Liu, PhD in Statistics
 - Rachel Lobay, PhD in Statistics
+- Sarah Masri, MSc in Statistics
+- Tom Tang, MSc in Statistics (co-supervised with [Jiahua Chen](https://www.stat.ubc.ca/~jhchen/))
+- Christine Chuong, MSc in Statistics
 - Wakeel Adekunle Kasali, MSc in Statistics (co-supervised with [Nancy Heckman](https://www.stat.ubc.ca/users/nancy-e-heckman))
 
 ### Alumni
