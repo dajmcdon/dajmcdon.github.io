@@ -14,9 +14,7 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 
 ## Current courses
 
--   Stat 406 Methods for Statistical Learning ([2023W1](https://ubc-stat.github.io/stat-406/))
-
--   Stat 550 Techniques of Statistical Consulting ([2023W2](https://ubc-stat.github.io/stat-550/))
+I am on research leave for the 2024/25 academic year.
 
 -   Stat 548 PhD Qualifying [Papers](stat548.qmd)
 
@@ -32,7 +30,11 @@ aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2) +
 
 #### At UBC
 
-- <p>Stat 535a Topics in Computational Statistics: Convex Optimization ([2021W1](https://ubc-stat.github.io/stat-535-convexopt))</p>
+-   [Stat 406](https://ubc-stat.github.io/stat-406/) Methods for Statistical Learning
+
+-   [Stat 550](https://ubc-stat.github.io/stat-550/) Techniques of Statistical Consulting
+
+-   [Stat 535a](https://ubc-stat.github.io/stat-535-convexopt) Topics in Computational Statistics: Convex Optimization
 
 #### At Indiana University, Bloomington
 
