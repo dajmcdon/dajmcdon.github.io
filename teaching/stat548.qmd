@@ -2,7 +2,7 @@
 title: Stat 548 - Qualifying Papers
 ---
 
-Last updated: 30 August 2024
+Last updated: 21 October 2024
 
 ## Choosing a paper
 
@@ -174,11 +174,11 @@ Some resources on technical/mathematical writing:
   speed/accuracy. Describe any advantages or disadvantages.
   
   
-1. Bergmeir, Hyndman, Koo (2017). [A note on the validity of cross-validation for evaluating autoregressive time series prediction](https://robjhyndman.com/papers/cv-wp.pdf)  
-  *Themes:* Time series, model selection, risk estimation.  
-  *Project:* Mimic a similar experiment using AR data with lasso and CV vs 
+1. ~~Bergmeir, Hyndman, Koo (2017). [A note on the validity of cross-validation for evaluating autoregressive time series prediction](https://robjhyndman.com/papers/cv-wp.pdf)~~  
+  ~~*Themes:* Time series, model selection, risk estimation.~~  
+  ~~*Project:* Mimic a similar experiment using AR data with lasso and CV vs 
   OOS estimation. Examine the proof of Theorem 1 and describe how we might be 
-  able to extend these results to "mixing" processes (or why we can't).
+  able to extend these results to "mixing" processes (or why we can't).~~
 
 1. Anderson (2001). [An ensemble adjustment Kalman filter for data assimilation](https://doi.org/10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2)  
   *Themes:* Time series, epidemiology.  
