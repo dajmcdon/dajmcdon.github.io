@@ -2,11 +2,24 @@
 title: "Research"
 ---
 
-## Overview
+My research sits at the intersection of statistical theory and computer science
+methodology and is part of the modern ascendancy of mining "big data" to produce 
+fundamentally novel science from complicated datasets. Specifically, I seek to 
+illuminate the role played by the nature and quantity of regularization as a 
+tool for improved scientific understanding.
 
-My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining "big data" to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.
-
-Through this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately---my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization---the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures.
+Through this lens, my research can be divided into four intersecting areas: (1) 
+computational approximation methodology, (2) model selection, (3) high-dimensional
+and nonparametric theory, and (4) applications related to these. My work explores
+and exploits the connections between these areas rather than approaching them 
+separately---my contributions have been developed out of the pressing need to 
+justify methodology as implemented in applications rather than in a vacuum 
+devoid of empirical motivation. My research program seeks to generate statistical
+guarantees for the procedures that applied researchers use while also developing 
+methodology for complicated, high-dimensional problems. Within this context, 
+much of my work involves what is referred to as regularization---the process of 
+mathematically balancing complex but meaningful scientific models with a 
+preference for simple fundamental structures.
 
 
 ```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, message=FALSE}

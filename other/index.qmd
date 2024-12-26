@@ -6,7 +6,7 @@ title: "Links, resources and additional information"
 
 * Delphi Research Group at Carnegie Mellon University
     - [Website](https://delphi.cmu.edu)
-    - [Github Org](http://github.com/cmu-delphi)
+    - [GitHub Org](http://github.com/cmu-delphi)
 
 * [BC COVID-19 Modelling Group](https://bccovid-19group.ca)
 
@@ -50,18 +50,36 @@ principal components analysis.
 
 ## Artwork and other attributions
 
-The artwork throughout this website is generated using R and additional packages. In principle, it will change randomly whenever the site is updated. Some of these use the [`{aRtsy}`](https://koenderks.github.io/aRtsy/index.html) package built by Koen Derks. Others use some custom functions that I occasionally work on in my spare time. These have benefited from reading Danielle Navarro's excellent [blog](https://blog.djnavarro.net/#category=Art) and other material, as well as some posts by [Tyler Hobbs](https://tylerxhobbs.com/essays/2020/flow-fields). 
+The artwork throughout this website is generated using R and additional packages.
+In principle, it will change randomly whenever the site is updated. Some of 
+these use the [`{aRtsy}`](https://koenderks.github.io/aRtsy/index.html) package 
+built by Koen Derks. Others use some custom functions that I occasionally work 
+on in my spare time. These have benefited from reading Danielle Navarro's 
+excellent [blog](https://blog.djnavarro.net/#category=Art) and other material, 
+as well as some posts by [Tyler Hobbs](https://tylerxhobbs.com/essays/2020/flow-fields). 
 
-This website was built with [Quarto](https://quarto.org) along with some custom CSS inspired by the [Hugo Apéro](https://hugo-apero.netlify.app/contributors/) theme. Building the site in Quarto removes some flexibility that I used to have with my old Jekyll site, but it also allows for much easier integration of R code. 
+This website was built with [Quarto](https://quarto.org) along with some custom 
+CSS inspired by the [Hugo Apéro](https://hugo-apero.netlify.app/contributors/) 
+theme. Building the site in Quarto removes some flexibility that I used to have 
+with my old Jekyll site, but it also allows for much easier integration of R code. 
 
-If any of this seems useful, see the underlying [GitHub repo](https://github.com/dajmcdon/dajmcdon.github.io) for the code. There are script files that control the artwork as well as autogenerating the list of publications (a massive headache in other static site generators).
+If any of this seems useful, see the underlying [GitHub repo](https://github.com/dajmcdon/dajmcdon.github.io)
+for the code. There are script files that control the artwork as well as 
+autogenerating the list of publications (a massive headache in other static 
+site generators).
 
 ## Personal
 
-I still play cello occasionally, both privately and with the [Vancouver Philharmonic](https://www.vanphil.ca). And I enjoy listening to classical music whenever I get the chance. I've only once successfully connected [research and music](/chopin-2022-slides), but this leaves music to be a nice hobby, a total diversion from academic work.
+I still play cello occasionally, both privately and with the 
+[Vancouver Philharmonic](https://www.vanphil.ca). And I enjoy listening to 
+classical music whenever I get the chance. I've only once successfully 
+connected [research and music](/chopin-2022-slides), but this leaves music to 
+be a nice hobby, a total diversion from academic work.
 
-I should also point to my partner's website: [Tamara Mitchell](https://tamaraleemitchell.github.io). She does great work in Hispanic literature, and we're lucky to be at the same institution. We also have a wonderful cat that we spoil rotten.
-
+I should also point to my partner's website: 
+[Tamara Mitchell](https://tamaraleemitchell.github.io). She does great
+work in Hispanic literature, and we're lucky to be at the same institution. We 
+also have three(!!) wonderful cats that we spoil rotten.
 
 
 ![Gigi](/assets/img/gigi.JPG)
