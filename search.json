@@ -14,13 +14,6 @@
     "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
   },
   {
-    "objectID": "research/index.html#overview",
-    "href": "research/index.html#overview",
-    "title": "Research",
-    "section": "",
-    "text": "My research sits at the intersection of statistical theory and computer science methodology and is part of the modern ascendancy of mining “big data” to produce fundamentally novel science from complicated datasets. Specifically, I seek to illuminate the role played by the nature and quantity of regularization as a tool for improved scientific understanding.\nThrough this lens, my research can be divided into four intersecting areas: (1) computational approximation methodology, (2) model selection, (3) high-dimensional and nonparametric theory, and (4) applications related to these. My work explores and exploits the connections between these areas rather than approaching them separately—my contributions have been developed out of the pressing need to justify methodology as implemented in applications rather than in a vacuum devoid of empirical motivation. My research program seeks to generate statistical guarantees for the procedures that applied researchers use while also developing methodology for complicated, high-dimensional problems. Within this context, much of my work involves what is referred to as regularization—the process of mathematically balancing complex but meaningful scientific models with a preference for simple fundamental structures."
-  },
-  {
     "objectID": "research/index.html#recent-papers-and-preprints",
     "href": "research/index.html#recent-papers-and-preprints",
     "title": "Research",
@@ -137,14 +130,14 @@
     "href": "other/index.html",
     "title": "Links, resources and additional information",
     "section": "",
-    "text": "Delphi Research Group at Carnegie Mellon University\n\nWebsite\nGithub Org\n\nBC COVID-19 Modelling Group"
+    "text": "Delphi Research Group at Carnegie Mellon University\n\nWebsite\nGitHub Org\n\nBC COVID-19 Modelling Group"
   },
   {
     "objectID": "other/index.html#infectious-disease-modelling-work",
     "href": "other/index.html#infectious-disease-modelling-work",
     "title": "Links, resources and additional information",
     "section": "",
-    "text": "Delphi Research Group at Carnegie Mellon University\n\nWebsite\nGithub Org\n\nBC COVID-19 Modelling Group"
+    "text": "Delphi Research Group at Carnegie Mellon University\n\nWebsite\nGitHub Org\n\nBC COVID-19 Modelling Group"
   },
   {
     "objectID": "other/index.html#r-packages-for-recent-papers-and-publications",
@@ -172,7 +165,7 @@
     "href": "other/index.html#personal",
     "title": "Links, resources and additional information",
     "section": "Personal",
-    "text": "Personal\nI still play cello occasionally, both privately and with the Vancouver Philharmonic. And I enjoy listening to classical music whenever I get the chance. I’ve only once successfully connected research and music, but this leaves music to be a nice hobby, a total diversion from academic work.\nI should also point to my partner’s website: Tamara Mitchell. She does great work in Hispanic literature, and we’re lucky to be at the same institution. We also have a wonderful cat that we spoil rotten.\n\n\n\nGigi"
+    "text": "Personal\nI still play cello occasionally, both privately and with the Vancouver Philharmonic. And I enjoy listening to classical music whenever I get the chance. I’ve only once successfully connected research and music, but this leaves music to be a nice hobby, a total diversion from academic work.\nI should also point to my partner’s website: Tamara Mitchell. She does great work in Hispanic literature, and we’re lucky to be at the same institution. We also have three(!!) wonderful cats that we spoil rotten.\n\n\n\nGigi"
   },
   {
     "objectID": "other/market-advice.html",
