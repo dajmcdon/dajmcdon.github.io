@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dajmcdon.github.io/biography.html</loc>
-    <lastmod>2024-12-26T22:03:24.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/research/index.html</loc>
-    <lastmod>2024-12-26T22:03:24.546Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/teaching/inet2015.html</loc>
-    <lastmod>2024-12-26T22:03:24.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/teaching/stat548.html</loc>
-    <lastmod>2024-12-26T22:03:24.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/students/postdoc.html</loc>
-    <lastmod>2024-12-26T22:03:24.546Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/other/index.html</loc>
-    <lastmod>2024-12-26T22:03:24.470Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/other/market-advice.html</loc>
-    <lastmod>2024-12-26T22:03:24.470Z</lastmod>
+    <lastmod>2025-03-12T22:06:51.485Z</lastmod>
   </url>
   <url>
     <loc>https://dajmcdon.github.io/students/index.html</loc>
-    <lastmod>2024-12-26T22:03:24.546Z</lastmod>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
   </url>
   <url>
-    <loc>https://dajmcdon.github.io/teaching/inet2013.html</loc>
-    <lastmod>2024-12-26T22:03:24.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/teaching/index.html</loc>
-    <lastmod>2024-12-26T22:03:24.546Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dajmcdon.github.io/index.html</loc>
-    <lastmod>2024-12-26T22:03:24.470Z</lastmod>
+    <loc>https://dajmcdon.github.io/other/market-advice.html</loc>
+    <lastmod>2025-03-12T22:06:51.485Z</lastmod>
   </url>
   <url>
     <loc>https://dajmcdon.github.io/research/all-pubs.html</loc>
-    <lastmod>2024-12-26T22:03:24.471Z</lastmod>
+    <lastmod>2025-03-12T22:06:51.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/teaching/inet2015.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/teaching/index.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/index.html</loc>
+    <lastmod>2025-03-12T22:06:51.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/teaching/stat548.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/teaching/inet2013.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/research/index.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/other/index.html</loc>
+    <lastmod>2025-03-12T22:06:51.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/other/rpkg-tricks.html</loc>
+    <lastmod>2025-03-12T22:06:51.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dajmcdon.github.io/students/postdoc.html</loc>
+    <lastmod>2025-03-12T22:06:51.562Z</lastmod>
   </url>
 </urlset>

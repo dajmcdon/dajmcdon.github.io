@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Information for Students – DJM</title>
+<title>rpkg-tricks – DJM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -95,7 +129,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <span class="menu-text">TEACHING</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../students/index.html" aria-current="page"> 
+    <a class="nav-link" href="../students/index.html"> 
 <span class="menu-text">STUDENTS</span></a>
   </li>  
   <li class="nav-item">
@@ -118,103 +152,185 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-group" id="toc-research-group" class="nav-link active" data-scroll-target="#research-group">Research group</a>
+  <li><a href="#tricks-and-best-practices-for-writing-r-packages" id="toc-tricks-and-best-practices-for-writing-r-packages" class="nav-link active" data-scroll-target="#tricks-and-best-practices-for-writing-r-packages">Tricks and best-practices for writing R packages</a>
   <ul class="collapse">
-  <li><a href="#current-members" id="toc-current-members" class="nav-link" data-scroll-target="#current-members">Current members</a></li>
-  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#commands-to-issue-now-or-later-but-likely-only-once" id="toc-commands-to-issue-now-or-later-but-likely-only-once" class="nav-link" data-scroll-target="#commands-to-issue-now-or-later-but-likely-only-once">Commands to issue (now or later, but likely only once)</a>
+  <ul class="collapse">
+  <li><a href="#usethisuse_readme_rmd" id="toc-usethisuse_readme_rmd" class="nav-link" data-scroll-target="#usethisuse_readme_rmd"><code>usethis::use_readme_rmd()</code></a></li>
+  <li><a href="#usethisuse_pkgdown_github_pages" id="toc-usethisuse_pkgdown_github_pages" class="nav-link" data-scroll-target="#usethisuse_pkgdown_github_pages"><code>usethis::use_pkgdown_github_pages()</code></a></li>
+  <li><a href="#usethisuse_testthat" id="toc-usethisuse_testthat" class="nav-link" data-scroll-target="#usethisuse_testthat"><code>usethis::use_testthat()</code></a></li>
+  <li><a href="#usethisuse_github_actioncheck-release" id="toc-usethisuse_github_actioncheck-release" class="nav-link" data-scroll-target="#usethisuse_github_actioncheck-release"><code>usethis::use_github_action("check-release")</code></a></li>
   </ul></li>
-  <li><a href="#applying-to-ubc-statistics-or-mds-programs" id="toc-applying-to-ubc-statistics-or-mds-programs" class="nav-link" data-scroll-target="#applying-to-ubc-statistics-or-mds-programs">Applying to UBC Statistics or MDS Programs</a></li>
-  <li><a href="#requesting-letters-of-recommendation" id="toc-requesting-letters-of-recommendation" class="nav-link" data-scroll-target="#requesting-letters-of-recommendation">Requesting letters of recommendation</a></li>
-  <li><a href="#public-calendar" id="toc-public-calendar" class="nav-link" data-scroll-target="#public-calendar">Public calendar</a></li>
+  <li><a href="#commands-to-issue-regularly" id="toc-commands-to-issue-regularly" class="nav-link" data-scroll-target="#commands-to-issue-regularly">Commands to issue regularly</a>
+  <ul class="collapse">
+  <li><a href="#devtoolsload_all" id="toc-devtoolsload_all" class="nav-link" data-scroll-target="#devtoolsload_all"><code>devtools::load_all()</code></a></li>
+  <li><a href="#devtoolsdocument" id="toc-devtoolsdocument" class="nav-link" data-scroll-target="#devtoolsdocument"><code>devtools::document()</code></a></li>
+  <li><a href="#devtoolscheck" id="toc-devtoolscheck" class="nav-link" data-scroll-target="#devtoolscheck"><code>devtools::check()</code></a></li>
+  <li><a href="#usethisuse_testname_of_function" id="toc-usethisuse_testname_of_function" class="nav-link" data-scroll-target="#usethisuse_testname_of_function"><code>usethis::use_test("name_of_function")</code></a></li>
+  <li><a href="#usethisuse_tidy_description" id="toc-usethisuse_tidy_description" class="nav-link" data-scroll-target="#usethisuse_tidy_description"><code>usethis::use_tidy_description()</code></a></li>
+  <li><a href="#usethisuse_vignette" id="toc-usethisuse_vignette" class="nav-link" data-scroll-target="#usethisuse_vignette"><code>usethis::use_vignette()</code></a></li>
+  </ul></li>
+  <li><a href="#other-idiosyncracies" id="toc-other-idiosyncracies" class="nav-link" data-scroll-target="#other-idiosyncracies">Other idiosyncracies</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Information for Students</h1>
+
+
+
+<section id="tricks-and-best-practices-for-writing-r-packages" class="level1">
+<h1>Tricks and best-practices for writing R packages</h1>
+<p>This document is intended to contain a few suggestions for making the writing of R packages easier. Much of it is based on resources elsewhere, especially <a href="https://r-pkgs.org" class="uri">https://r-pkgs.org</a>.</p>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>We presume you’re using GitHub for version control. You should. Do it.</p>
+<p>We also presume that you’ll use RStudio for most of the development. This is much easier than VScode or Emacs, at least initially.</p>
+<p>You need 5 R packages:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"devtools"</span>, <span class="st">"roxygen2"</span>, <span class="st">"testthat"</span>, <span class="st">"knitr"</span> <span class="st">"usethis"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="research-group" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="research-group">Research group</h2>
-<section id="current-members" class="level3">
-<h3 class="anchored" data-anchor-id="current-members">Current members</h3>
-<ul>
-<li>Jiaping Liu, PhD in Statistics</li>
-<li>Rachel Lobay, PhD in Statistics</li>
-<li>Sarah Masri, MSc in Statistics</li>
-<li>Tom Tang, MSc in Statistics (co-supervised with <a href="https://www.stat.ubc.ca/~jhchen/">Jiahua Chen</a>)</li>
-<li>Christine Chuong, MSc in Statistics</li>
-<li>Wakeel Adekunle Kasali, MSc in Statistics (co-supervised with <a href="https://www.stat.ubc.ca/users/nancy-e-heckman">Nancy Heckman</a>)</li>
-</ul>
-</section>
-<section id="alumni" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="alumni">Alumni</h3>
-<ul>
-<li>Tigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada</li>
-<li>Elvis Cai, MSc in Statistics (co-supervised with <a href="http://paulgstf.com/">Paul Gustafson</a>, UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences</li>
-<li>William Laplante, MSc in Statistics (co-supervised with <a href="https://www.stat.ubc.ca/~benbr/">Ben Bloem-Reddy</a>, UBC 2023);</li>
-<li>Ken Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo</li>
-<li>Shuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH &amp; UBC Hospital Foundation</li>
-<li>Xiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC</li>
-<li>Wei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon</li>
-<li>Aaron Cohen, PhD Qualifier (IUB 2021); PhD student in Statistics at IUB</li>
-<li>Lei Ding, PhD in Statistics (IUB 2020); Data Scientist at Amazon</li>
-<li>Robert Granger, PhD Qualifier (IUB 2020); PhD student in Statistics at IUB</li>
-<li>Haoran Liu, MSc in Statistics (IUB 2020); PhD student in Statistics at IUB</li>
-<li>Mackenzie Turner, CEW&amp;T Emerging Scholars REU (IUB 2020); BA student in SPEA at IUB</li>
-<li>Arash Khodadadi, MSc in Statistics (IUB 2018); Data Scientist at Advanced Microgrid Solutions</li>
-<li>Michael McBride, BSc in Statistics (IUB 2018); Software Developer at Epic</li>
-<li>Jia Wang, MSc in Statistics (IUB 2017); PhD student in Biostatistics at SUNY Buffalo</li>
-<li>Lijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB</li>
-</ul>
-<div class="cell column-screen-left">
-
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Below (and in my own workflow), I generally use the syntax <code>pkgname::function()</code> to be clear where the function lives. I prefer <em>not</em> to call, e.g., <code>library(usethis)</code> while writing a package. It’s not so much typing as to be bothersome.</p>
+</div>
+</div>
+<ol type="1">
+<li>Create a new repo on GitHub (empty).</li>
+<li>Choose a location for your package (on your machine). It should not be nested inside an existing Rproject or Git repo.</li>
+<li>In RStudio, navigate to the Directory where it will live, and run <code>usethis::create_package("mypkg")</code> (replacing <code>"mypkg"</code> with whatever you want to name your package). This will create a skeleton with the appropriate structure.</li>
+<li>If you will be using compiled code (<code>{Rcpp}</code> for example), call <code>usethis::use_rcpp()</code> (or the <code>usethis::use_rcpp_*()</code> versions for Armadillo or Eigen).</li>
+<li>Finally, init your Git, commit with some message, and push to your new repo.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>After the first two steps above, it’s worth considering whether you can use Jacob Bien’s <a href="https://jacobbien.github.io/litr-project/"><code>{litr}</code></a> package to create the entire package from a literate Rmarkdown file.</p>
+</div>
 </div>
 </section>
+<section id="commands-to-issue-now-or-later-but-likely-only-once" class="level2">
+<h2 class="anchored" data-anchor-id="commands-to-issue-now-or-later-but-likely-only-once">Commands to issue (now or later, but likely only once)</h2>
+<p>There are a number of useful tricks in <code>{usethis}</code> that you may want to run now. These can also be run “down the line” when you already have a working package, but at that point, you’ll likely need to make some adjustments (if some other documents already exist or similar).</p>
+<section id="usethisuse_readme_rmd" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_readme_rmd"><code>usethis::use_readme_rmd()</code></h3>
+<p>This creates an Rmarkdown README file that renders to the actual README. This is usually what you want to demonstrate the package. Once done, edit the README.Rmd and run <code>devtools::build_readme()</code> to render it. Don’t just click <code>Knit</code>. This may fail for a few reasons.</p>
 </section>
-<section id="applying-to-ubc-statistics-or-mds-programs" class="level2">
-<h2 class="anchored" data-anchor-id="applying-to-ubc-statistics-or-mds-programs">Applying to UBC Statistics or MDS Programs</h2>
-<p>I generally have no special powers when it comes to being admitted to MSc/PhD or MDS programs. At UBC, students are admitted to the department before choosing an advisor later in their program. If you are interested, I encourage you to consult the <a href="https://www.stat.ubc.ca/graduate">department website</a>.</p>
-<p>If you want to learn more, your best bet is to email the <a href="mailto:admiss@stat.ubc.ca">Graduate Admissions Officer</a>.</p>
+<section id="usethisuse_pkgdown_github_pages" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_pkgdown_github_pages"><code>usethis::use_pkgdown_github_pages()</code></h3>
+<p>This does a lot of things at once:</p>
+<ol type="1">
+<li>Automatically sets up <code>{pkgdown}</code> to render website documentation</li>
+<li>Creates a GitHub action that <strong>automatically</strong> builds your site when you push to the <code>main</code> branch.</li>
+<li>Puts the site on an orphan <code>gh_pages</code> branch (and tells GitHub it’s there). You no longer have that <code>docs/</code> folder sitting in your repo.</li>
+<li>Adds stuff to various files to make this all work.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I strongly recommend doing this rather than the usual workflow that involves rebuilding the site yourself.</p>
+</div>
+</div>
 </section>
-<section id="requesting-letters-of-recommendation" class="level2">
-<h2 class="anchored" data-anchor-id="requesting-letters-of-recommendation">Requesting letters of recommendation</h2>
-<p>I frequently get requests for letters of recommendation, and I’m generally happy to comply. However, unless we regularly interacted, it is unlikely that I can provide useful information to a recruiter or admissions committee member. In these cases, I <strong>highly</strong> recommend asking someone else who can provide more detailed descriptions of your unique strengths.</p>
-<p>If you are currently enrolled in class with me, and you would like a letter, I will ask that you attend office hours, ask questions, of in another way give me some information about yourself. Without such interaction, I will likely write a generic “this student took a class with me” letter, but experience suggests that this type of letter is not likely to help you to be admitted to graduate school.</p>
-<p>In order for me to write, I will need at least <strong>two</strong> weeks notice before the first deadline.</p>
+<section id="usethisuse_testthat" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_testthat"><code>usethis::use_testthat()</code></h3>
+<p>Set up unit testing for your package. You should unit test your package. Don’t do this some other way. See <a href="http://testthat.r-lib.org/" class="uri">http://testthat.r-lib.org/</a> for examples of writing complicated tests.</p>
+</section>
+<section id="usethisuse_github_actioncheck-release" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_github_actioncheck-release"><code>usethis::use_github_action("check-release")</code></h3>
+<p>Initializes “Continuous integration” through GitHub actions. Essentially, whenever you push to <code>main</code> (or open a PR against <code>main</code>), in the background, GitHub will call <code>devtools::check()</code> on your code. This will try to (among other things),</p>
+<ol type="1">
+<li>rebuild and install the package,</li>
+<li>build vignettes,</li>
+<li>run all examples,</li>
+<li>run the tests,</li>
+<li>and run the standard <code>R CMD Check</code>.</li>
+</ol>
+<p>Then, you’ll see a Green Checkmark on the PR (or a red X on failure). This ensures that modifications that you make (or are about to make) don’t screw up your code.</p>
+<p>In practice, you would check locally on a regular basis (see below). But not everyone does, and sometimes you forget. This is the (nearly) foolproof way to make sure that collaborators (and you) don’t mess something up.</p>
+<p>You may think you don’t want to set this up immediately. Perhaps you haven’t implemented some key functionality, haven’t written enough tests, etc. I’d argue you should do this now anyway. This will force you (at least if you hate seeing the red X) to make every new piece of your code run. This avoids the common “I’m just going to write most of the stuff to get it running, and make sure it works later.”</p>
+</section>
+</section>
+<section id="commands-to-issue-regularly" class="level2">
+<h2 class="anchored" data-anchor-id="commands-to-issue-regularly">Commands to issue regularly</h2>
+<p>These you’ll use while working on the package. Probably calling them multiple times per session.</p>
+<section id="devtoolsload_all" class="level3">
+<h3 class="anchored" data-anchor-id="devtoolsload_all"><code>devtools::load_all()</code></h3>
+<p>This loads all functions (including unexported functions). This is different than calling <code>library(mypkg)</code>. If you want to play around with the things you’ve just written, call this. Never click <code>Source</code> or call <code>source(somefile)</code>. This causes conflicts in unpleasant ways.</p>
+<p>Calling <code>devtools::load_all()</code> also loads Dependencies and rebuilds <code>src/</code> (C, Cpp, or Fortran) files if needed.</p>
+</section>
+<section id="devtoolsdocument" class="level3">
+<h3 class="anchored" data-anchor-id="devtoolsdocument"><code>devtools::document()</code></h3>
+<p>Rebuilds package documentation. The Roxygen tags are not only for help files built also control the NAMESPACE. Often, especially with S3 methods, you’ll need to do this to make sure that the NAMESPACE is exporting the right things before your methods will work.</p>
+</section>
+<section id="devtoolscheck" class="level3">
+<h3 class="anchored" data-anchor-id="devtoolscheck"><code>devtools::check()</code></h3>
+<p>This is the same as clicking <code>Check</code> on the package Build tab. See the description for the similar GitHub Action above. This just does it all locally. Do this regularly to make sure you’re not breaking things. If you are about to open a PR, be sure these pass. Any “Notes” that appear are OK for development, but generally not for CRAN.</p>
+</section>
+<section id="usethisuse_testname_of_function" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_testname_of_function"><code>usethis::use_test("name_of_function")</code></h3>
+<p>You just wrote a function and are playing with it in the console to make sure it works. Stop. Write these permanently as tests. This command will create the appropriate file and give a skeleton test.</p>
+<p>Writing good unit tests is well beyond the purpose of this document. A few rules of thumb:</p>
 <ul>
-<li>A list of all positions to which you are applying along with deadlines for each.</li>
-<li>A recent CV or resume that includes a list of courses taken in your major and an unofficial transcript.</li>
-<li>A personal statement (likely the one you’re sending in one of the applications).</li>
-<li>A description of any notable interactions we’ve had that I should highlight. This means personal interactions, not a description of the material you liked in my course.</li>
-<li>If you have a preferred name as well as a given name, please list both. I I need to be able to connect your email to your application and potentially to your Canvas profile.</li>
+<li>Ensure that all arguments are validated.</li>
+<li>Try some inputs that have predictable outputs. Make sure this works.</li>
+<li>Avoid random numbers.</li>
+<li>Complicated functions are hard to handle. Try to break these down into smaller sub-functions.</li>
+<li>Test the class of your output.</li>
+<li>An ideal set of tests would examine all possible combinations of inputs. This can be a pain. But your user might call some of these, and it’d be unfortunate if something has unpredictable behaviour.</li>
+<li>For errors, I suggest using <code>expect_snapshot(error = TRUE, buggy_fun(args))</code>. This writes the error message to a <code>.md</code> document to validate against. So, at minimum, code that suddenly produces a <em>different</em> error will then fail the test. Even better, you can look at the message produced and ensure that it’s reasonable.</li>
 </ul>
 </section>
-<section id="public-calendar" class="level2">
-<h2 class="anchored" data-anchor-id="public-calendar">Public calendar</h2>
-<div style="display: flex; align-items: center; justify-content: center;">
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23efefef&amp;ctz=America%2FVancouver&amp;src=ZGFqbWNkb25AZ21haWwuY29t&amp;color=%233F51B5&amp;mode=WEEK&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border-width:0" width="600" height="500" frameborder="0" scrolling="no">
-</iframe>
-</div>
+<section id="usethisuse_tidy_description" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_tidy_description"><code>usethis::use_tidy_description()</code></h3>
+<p>This just cleans up the DESCRIPTION. Alphabetizing imports, controlling spacing, a few other things. Not required, but nicer.</p>
+</section>
+<section id="usethisuse_vignette" class="level3">
+<h3 class="anchored" data-anchor-id="usethisuse_vignette"><code>usethis::use_vignette()</code></h3>
+<p>Create a vignette for long-form documentation. The YAML header is a bit strange, so this is easier than creating an empty <code>.Rmd</code> some other way.</p>
+</section>
+</section>
+<section id="other-idiosyncracies" class="level2">
+<h2 class="anchored" data-anchor-id="other-idiosyncracies">Other idiosyncracies</h2>
+<ul>
+<li>Functions are best named as verbs <code>estimate_something()</code>. Prefer snake case where possible.</li>
+<li>There are exceptions, the most common being <code>mypkg()</code>. Especially if your package does basically one thing.</li>
+<li>Try to reuse function names that other packages use for similar behaviour. An example is <code>cv.estimator()</code>. Someone who uses <code>{glmnet}</code> will then know what this is. (I might use <code>cv_estimator()</code>).</li>
+<li>In general, look at other packages that are well-regarded and use similar/familiar names and behaviours. <code>{glmnet}</code> is a great example for regularized linear models. It’s well-written, widely used, and supported. So having arguments in a similar order with similar names to those will make it easier on your users.</li>
+<li>Add <code>print()</code> methods for your classes.</li>
+<li>Avoid piles of Imports.</li>
+<li>Make good use of <code>{rlang}</code>. It helps with lots of issues.</li>
+<li>Never Import <code>{tidyverse}</code>.</li>
+<li>Best to have 1 function per file, with the file name the same as the name of function. The main exception is consolidating methods in one place, or putting a helper function together with the function it helps.</li>
+<li>Use <code>{cli}</code> to write nice error messages.</li>
+<li>Document thoroughly. This includes the rendered documentation and comments in the code. Focus on the “why”. The “what” should be intelligible to someone looking at the code. If it’s not, then refactor the code (better object names for instance).</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

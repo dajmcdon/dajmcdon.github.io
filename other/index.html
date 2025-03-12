@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,10 +32,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-990407af1a3ee5030c63de2263e08776.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0d9cec98cf8b1fa49ed5a0531c63ff6d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -62,6 +62,35 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../assets/styles.css">
 </head>
@@ -168,7 +197,8 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <ul>
 <li><a href="https://waternumbers.github.io/FKF/index.html"><code>{fkf}</code></a>: <strong>Fast Kalman Filter.</strong> Very fast Kalman filtering and smoothing.</li>
 <li><a href="https://dajmcdon.github.io/sparsegl/"><code>{sparsegl}</code></a> <strong>Sparse Group Lasso.</strong> Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.</li>
-<li><a href="http://github.com/dajmcdon/dpf"><code>{dpf}</code></a>: <strong>Discrete particle filtering.</strong> This package greedily estimates switching Kalman filters <em>fast</em>. Also useful for analysis of musical tempos.</li>
+<li><a href="https://dajmcdon.github.io/rtestim"><code>{rtestim}</code></a> <strong>Estimate the Effective</strong> <strong>Reproductive Number with Trend Filtering.</strong> The instantaneous reproduction number, <span class="math inline">\(R_t\)</span>, roughly says “how many new infections will result from each new infection today”. Values larger than 1 indicate that an epidemic is growing while those less than 1 indicate decline. This package uses Poisson likelihood and a trend filtering penalty (a type of regularized nonparametric regression), to impose smoothness in the estimate.</li>
+<li><a href="http://github.com/dajmcdon/dpf"><code>{dpf}</code></a>: <strong>Discrete particle</strong> <strong>filtering.</strong> This package greedily estimates switching Kalman filters <em>fast</em>. Also useful for analysis of musical tempos.</li>
 <li><a href="http://github.com/dajmcdon/aimer"><code>{AIMER}</code></a>: <strong>Amplified, Initially Marginal, Eigenvector Regression.</strong> As described in Ding, L. and McDonald, D.J., “Predicting phenotypes from microarrays using amplified, initially marginal, eigenvector regression”. A better version of supervised principal components analysis.</li>
 <li><a href="http://github.com/dajmcdon/cplr"><code>{cplr}</code></a>: <strong>Compressed penalized linear regression.</strong> As described in Homrighausen, D. and McDonald, D.J., “Compressed and penalized linear regression.”</li>
 </ul>
@@ -177,6 +207,9 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="additional-resources">Additional resources</h2>
 <ul>
 <li><a href="../other/market-advice.html">Advice for getting a job</a>, somewhat out of date</li>
+<li><a href="../other/rpkg-tricks.html">R Package Tricks</a></li>
+<li><a href="https://github.com/dajmcdon/talk-template">Quarto presentation template</a></li>
+<li><a href="https://github.com/dajmcdon/dajmcdon-latex">LaTeX template for writing manuscripts</a></li>
 <li><a href="http://kbroman.org/minimal_make/">Minimal make files</a></li>
 <li><a href="https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf">Nice LaTeX tables</a></li>
 </ul>
@@ -188,7 +221,6 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <li><a href="http://happygitwithr.com">Happy Git with R</a>, good exposition on setting up and combining R and Git</li>
 <li><a href="https://rstudio-pubs-static.s3.amazonaws.com/265713_cbef910aee7642dc8b62996e38d2825d.html">Basic text mining in R</a></li>
 <li><a href="http://ohi-science.org/manual/#rpostback-askpass-error">Fix common Github+R issues</a>, the dreaded rpostback askpass error</li>
-<li><a href="http://ggplot2.tidyverse.org">ggplot2</a></li>
 <li><a href="https://mllg.github.io/batchtools/index.html">The batchtools package</a> for easy cluster parallelization</li>
 </ul>
 </section>
