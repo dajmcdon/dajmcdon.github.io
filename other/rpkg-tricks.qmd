@@ -1,0 +1,198 @@
+# Tricks and best-practices for writing R packages
+
+This document is intended to contain a few suggestions for making 
+the writing of R packages easier. Much of it is based on resources elsewhere,
+especially <https://r-pkgs.org>.
+
+## Setup
+
+We presume you're using GitHub for version control. You should. Do it.
+
+We also presume that you'll use RStudio for most of the development.
+This is much easier than VScode or Emacs, at least initially. 
+
+You need 5 R packages:
+``` r
+install.packages(c("devtools", "roxygen2", "testthat", "knitr" "usethis"))
+```
+
+::: {.callout-note}
+Below (and in my own workflow), I generally use the syntax `pkgname::function()`
+to be clear where the function lives. I prefer _not_ to call, e.g., `library(usethis)`
+while writing a package. It's not so much typing as to be bothersome.
+:::
+
+
+1. Create a new repo on GitHub (empty).
+2. Choose a location for your package (on your machine). It should not be
+nested inside an existing Rproject or Git repo.
+3. In RStudio, navigate to the Directory where it will live,
+and run `usethis::create_package("mypkg")`
+(replacing `"mypkg"` with whatever you want to name your package). This will
+create a skeleton with the appropriate structure.
+4. If you will be using compiled code (`{Rcpp}` for example), call `usethis::use_rcpp()` 
+(or the `usethis::use_rcpp_*()` versions for Armadillo or Eigen).
+5. Finally, init your Git, commit with some message, and push to your new repo.
+
+::: {.callout-note}
+After the first two steps above, it's worth considering whether you can use
+Jacob Bien's [`{litr}`](https://jacobbien.github.io/litr-project/) package to
+create the entire package from a literate Rmarkdown file.
+:::
+
+## Commands to issue (now or later, but likely only once)
+
+There are a number of useful tricks in `{usethis}` that you may want to run now.
+These can also be run "down the line" when you already have a working package, but
+at that point, you'll likely need to make some adjustments (if some other documents 
+already exist or similar).
+
+
+### `usethis::use_readme_rmd()` 
+
+This creates an Rmarkdown README file that renders to the 
+actual README. This is usually what you want to demonstrate the package.
+Once done, edit the README.Rmd and run `devtools::build_readme()` to render
+it. Don't just click `Knit`. This may fail for a few reasons.
+
+### `usethis::use_pkgdown_github_pages()`
+
+This does a lot of things at once:
+
+1. Automatically sets up `{pkgdown}` to render website documentation
+2. Creates a GitHub action that **automatically** builds your site when
+you push to the `main` branch.
+3. Puts the site on an orphan `gh_pages` branch (and tells GitHub it's there).
+You no longer have that `docs/` folder sitting in your repo.
+4. Adds stuff to various files to make this all work.
+
+::: {.callout-important}
+I strongly recommend doing this rather than the usual workflow that involves
+rebuilding the site yourself.
+:::
+
+### `usethis::use_testthat()`
+
+Set up unit testing for your package. You should unit test your package. Don't
+do this some other way. See <http://testthat.r-lib.org/> for examples of 
+writing complicated tests.
+
+### `usethis::use_github_action("check-release")`
+
+Initializes "Continuous integration" through GitHub actions. Essentially,
+whenever you push to `main` (or open a PR against `main`), in the background,
+GitHub will call `devtools::check()` on your code. This will try to (among other things),
+
+1. rebuild and install the package, 
+2. build vignettes, 
+3. run all examples, 
+4. run the tests,
+5. and run the standard `R CMD Check`. 
+
+Then, you'll see a Green Checkmark on the PR (or a red X on failure). This 
+ensures that modifications that you
+make (or are about to make) don't screw up your code.
+
+In practice, you would check locally on a regular basis (see below). But not
+everyone does, and sometimes you forget. This is the (nearly) foolproof way
+to make sure that collaborators (and you) don't mess something up.
+
+You may think you don't want to set this up immediately. Perhaps you haven't 
+implemented some key functionality, haven't written enough tests, etc. I'd 
+argue you should do this now anyway. This will force you (at least if you
+hate seeing the red X) to make every new piece of your code run. This avoids
+the common "I'm just going to write most of the stuff to get it running, 
+and make sure it works later."
+
+## Commands to issue regularly
+
+These you'll use while working on the package. Probably calling them 
+multiple times per session. 
+
+### `devtools::load_all()`
+
+This loads all functions (including unexported functions). This is 
+different than calling `library(mypkg)`. If you want to play around
+with the things you've just written, call this. Never click `Source` or
+call `source(somefile)`. This causes conflicts in unpleasant ways. 
+
+Calling `devtools::load_all()` also loads Dependencies and rebuilds `src/` (C, Cpp, or Fortran) files
+if needed.
+
+### `devtools::document()`
+
+Rebuilds package documentation. The Roxygen tags are not only for help
+files built also control the NAMESPACE. Often, especially with S3 methods,
+you'll need to do this to make sure that the NAMESPACE is exporting the
+right things before your methods will work.
+
+### `devtools::check()`
+
+This is the same as clicking `Check` on the package Build tab. See the
+description for the similar GitHub Action above. This just does it all
+locally. Do this regularly to make sure you're not breaking things.
+If you are about to open a PR, be sure these pass. Any "Notes" that
+appear are OK for development, but generally not for CRAN.
+
+### `usethis::use_test("name_of_function")`
+
+You just wrote a function and are playing with it in the console to make 
+sure it works. Stop. Write these permanently as tests. This command will
+create the appropriate file and give a skeleton test.
+
+Writing good unit tests is well beyond the purpose of this document. A few
+rules of thumb:
+
+* Ensure that all arguments are validated.
+* Try some inputs that have predictable outputs. Make sure this works.
+* Avoid random numbers.
+* Complicated functions are hard to handle. Try to break these down into
+smaller sub-functions.
+* Test the class of your output.
+* An ideal set of tests would examine all possible combinations of inputs.
+This can be a pain. But your user might call some of these, and it'd be
+unfortunate if something has unpredictable behaviour.
+* For errors, I suggest using `expect_snapshot(error = TRUE, buggy_fun(args))`.
+This writes the error message to a `.md` document to validate against. So, at
+minimum, code that suddenly produces a *different* error will then fail the
+test. Even better, you can look at the message produced and ensure that it's 
+reasonable.
+
+
+### `usethis::use_tidy_description()`
+
+This just cleans up the DESCRIPTION. Alphabetizing imports, controlling
+spacing, a few other things. Not required, but nicer.
+
+### `usethis::use_vignette()`
+
+Create a vignette for long-form documentation. The YAML header is a bit 
+strange, so this is easier than creating an empty `.Rmd` some other
+way.
+
+## Other idiosyncracies
+
+* Functions are best named as verbs `estimate_something()`.
+Prefer snake case where possible.
+* There are exceptions, the most common being `mypkg()`. 
+Especially if your package does basically one thing.
+* Try to reuse function names that other packages use for similar
+behaviour. An example is `cv.estimator()`. Someone who uses `{glmnet}`
+will then know what this is. (I might use `cv_estimator()`).
+* In general, look at other packages that are well-regarded and 
+use similar/familiar names and behaviours. `{glmnet}` is a great
+example for regularized linear models. It's well-written, widely
+used, and supported. So having arguments in a similar order with
+similar names to those will make it easier on your users.
+* Add `print()` methods for your classes.
+* Avoid piles of Imports. 
+* Make good use of `{rlang}`. It helps with lots of issues.
+* Never Import `{tidyverse}`.
+* Best to have 1 function per file, with the file name the same as the name of
+function. The main exception is consolidating methods in one place, or putting
+a helper function together with the function it helps.
+* Use `{cli}` to write nice error messages.
+* Document thoroughly. This includes the rendered documentation and comments in 
+the code. Focus on the "why". The "what" should be intelligible to
+someone looking at the code. If it's not, then refactor the code (better object
+names for instance).

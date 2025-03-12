@@ -19,9 +19,22 @@ title: "Links, resources and additional information"
 * [`{fkf}`](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
   Very fast Kalman filtering and smoothing. 
 * [`{sparsegl}`](https://dajmcdon.github.io/sparsegl/) __Sparse Group Lasso.__
-    Efficient implementation of sparse group lasso with optional bound constraints on the coefficients. It supports the use of a sparse design matrix as well as returning coefficient estimates in a sparse matrix. Furthermore, it correctly calculates the degrees of freedom to allow for information criteria rather than cross-validation with very large data. Finally, the interface to compiled code avoids unnecessary copies and allows for the use of long integers.
-* [`{dpf}`](http://github.com/dajmcdon/dpf): __Discrete particle
-  filtering.__ This package greedily estimates switching Kalman filters
+    Efficient implementation of sparse group lasso with optional bound constraints
+    on the coefficients. It supports the use of a sparse design matrix as well 
+    as returning coefficient estimates in a sparse matrix. Furthermore, it 
+    correctly calculates the degrees of freedom to allow for information criteria
+    rather than cross-validation with very large data. Finally, the interface to
+    compiled code avoids unnecessary copies and allows for the use of long integers.
+* [`{rtestim}`](https://dajmcdon.github.io/rtestim) __Estimate the Effective__ 
+    __Reproductive Number with Trend Filtering.__ The instantaneous reproduction
+    number, $R_t$, roughly says "how
+    many new infections will result from each new infection today".
+    Values larger than 1 indicate that an epidemic is growing while those
+    less than 1 indicate decline.  This package uses Poisson likelihood and a 
+    trend filtering penalty (a type of regularized 
+    nonparametric regression), to impose smoothness in the estimate.
+* [`{dpf}`](http://github.com/dajmcdon/dpf): __Discrete particle__
+  __filtering.__ This package greedily estimates switching Kalman filters
   *fast*. Also useful for analysis of musical tempos.
 * [`{AIMER}`](http://github.com/dajmcdon/aimer): __Amplified, Initially Marginal, Eigenvector Regression.__ As described in Ding, L. and McDonald, D.J.,
 "Predicting phenotypes from microarrays using amplified, initially
@@ -34,6 +47,9 @@ principal components analysis.
 ## Additional resources
 
 * [Advice for getting a job](/other/market-advice.html), somewhat out of date
+* [R Package Tricks](rpkg-tricks.qmd)
+* [Quarto presentation template](https://github.com/dajmcdon/talk-template)
+* [LaTeX template for writing manuscripts](https://github.com/dajmcdon/dajmcdon-latex)
 * [Minimal make files](http://kbroman.org/minimal_make/)
 * [Nice LaTeX tables](https://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf)
 
@@ -45,7 +61,6 @@ principal components analysis.
 * [Happy Git with R](http://happygitwithr.com), good exposition on setting up and combining R and Git
 * [Basic text mining in R](https://rstudio-pubs-static.s3.amazonaws.com/265713_cbef910aee7642dc8b62996e38d2825d.html)
 * [Fix common Github+R issues](http://ohi-science.org/manual/#rpostback-askpass-error), the dreaded rpostback askpass error
-* [ggplot2](http://ggplot2.tidyverse.org)
 * [The batchtools package](https://mllg.github.io/batchtools/index.html) for easy cluster parallelization
 
 ## Artwork and other attributions

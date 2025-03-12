@@ -2,7 +2,7 @@
 title: Stat 548 - Qualifying Papers
 ---
 
-Last updated: 21 October 2024
+Last updated: 12 March 2025
 
 ## Choosing a paper
 
@@ -168,10 +168,10 @@ Some resources on technical/mathematical writing:
 --->
 ```
 
-1. Heng, Zhou, and Chi (2023). [Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo](https://doi.org/10.1080/10618600.2023.2170089)  
-  *Themes:* Non-parametric regression, computation.  
-  *Project:* Compare the methods with the `{trendfilter}` package in terms of 
-  speed/accuracy. Describe any advantages or disadvantages.
+1. ~~Heng, Zhou, and Chi (2023). [Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo](https://doi.org/10.1080/10618600.2023.2170089)~~  
+  ~~*Themes:* Non-parametric regression, computation.~~  
+  ~~*Project:* Compare the methods with the `{trendfilter}` package in terms of 
+  speed/accuracy. Describe any advantages or disadvantages.~~
   
   
 1. ~~Bergmeir, Hyndman, Koo (2017). [A note on the validity of cross-validation for evaluating autoregressive time series prediction](https://robjhyndman.com/papers/cv-wp.pdf)~~  
