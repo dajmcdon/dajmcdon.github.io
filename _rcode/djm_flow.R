@@ -5,7 +5,7 @@ djm_flow <- function(
     background = "#fafafa",
     nlines = 500,
     tapering = c("constant", "linear", "bellshaped", "edge", "random"),
-    noise_types = c("perlin", "knn", "svm", "rf", "cubic", "simplex", "worley"),
+    noise_types = c("perlin", "artsy-knn", "svm", "rf", "cubic", "simplex", "worley"),
     geom_type = c("geom_path", "geom_point"),
     lwd_par = 0.05,
     iterations = 100,
@@ -21,7 +21,7 @@ djm_flow <- function(
     plot_it = TRUE,
     pvec = NULL,
     color_fun = function(x, y) sample(colors, 1)) {
-  aRtsy:::.checkUserInput(background = background, iterations = iterations)
+
   if (is.null(pvec)) pvec = rep(1, length(colors)) / length(colors)
   stopifnot(length(pvec) == length(colors))
   pvec <- pvec / sum(pvec)

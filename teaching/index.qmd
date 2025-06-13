@@ -14,14 +14,19 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 
 ## Current courses
 
-I am on research leave for the 2024/25 academic year.
+- Stat 302 WT2
+- Stat 548 PhD Qualifying [Papers](stat548.qmd)
 
--   Stat 548 PhD Qualifying [Papers](stat548.qmd)
-
-```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5}
+```{r segments}
+#| warning: FALSE
+#| echo: FALSE
+#| out-width: "100%"
+#| out-height: "2.5in"
+#| fig-width: 12 
+#| fig-height: 2.5
 #| column: screen-left
-cols <- c("#39507d", "#ff9200", "#D33F49", "#68A691")
-aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2) +
+cols <- paletteer::paletteer_d("MoMAColors::Panton")
+aRtsy::canvas_swirls(cols, background = "white", n = 100, iterations = 400) +
   ggplot2::coord_fixed(ratio = 2.5/12, expand = FALSE)
 ```
 
@@ -30,11 +35,11 @@ aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2) +
 
 #### At UBC
 
--   [Stat 406](https://ubc-stat.github.io/stat-406/) Methods for Statistical Learning
+- [Stat 406](https://ubc-stat.github.io/stat-406/) Methods for Statistical Learning
 
--   [Stat 550](https://ubc-stat.github.io/stat-550/) Techniques of Statistical Consulting
+- [Stat 550](https://ubc-stat.github.io/stat-550/) Techniques of Statistical Consulting
 
--   [Stat 535a](https://ubc-stat.github.io/stat-535-convexopt) Topics in Computational Statistics: Convex Optimization
+- [Stat 535a](https://ubc-stat.github.io/stat-535-convexopt) Topics in Computational Statistics: Convex Optimization
 
 #### At Indiana University, Bloomington
 
@@ -49,6 +54,11 @@ aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2) +
 #### At the University of Chicago, Booth School of Business
 
 - 41-911 Advanced Econometrics (Aut18)
+
+#### For CDC/CFA InsightNet 
+
+- [Workshop on Aggregate Epidemiological Data and Forecasting](https://cmu-delphi.github.io/insightnet-workshop-2024/)
+
 
 #### At the Institute for New Economic Thinking
 

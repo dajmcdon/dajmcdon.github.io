@@ -24,14 +24,16 @@ preference for simple fundamental structures.
 
 ```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, message=FALSE}
 #| column: screen-left
-source(here::here("_rcode", "djm_flow.R"))
-pal <- c("#01364f", "#01364f", "#247c86", "#84231e", "#84231e")
-djm_flow(pal, nlines = 5000, 
-         tapering = "bellshaped", noise_types = "perlin", 
-         lwd_par = .3, min_length = 20*.01, iterations = 200,
-         top = 20 * 1.5, bottom = 20 * -0.5,
-         color_fun = function(x, y) sample(pal, length(x), TRUE)) +
-  ggplot2::coord_fixed(expand = FALSE)
+# source(here::here("_rcode", "djm_flow.R"))
+cols <- paletteer::paletteer_d("MoMAColors::VanGogh")
+# djm_flow(pal, nlines = 5000, 
+#          tapering = "bellshaped", noise_types = "perlin", 
+#          lwd_par = .3, min_length = 20*.01, iterations = 200,
+#          top = 20 * 1.5, bottom = 20 * -0.5,
+#          color_fun = function(x, y) sample(pal, length(x), TRUE)) +
+#   ggplot2::coord_fixed(expand = FALSE)
+aRtsy::canvas_flow(cols, background = "white", lines = 500, lwd = .3, iterations = 200) +
+  ggplot2::coord_fixed(ratio = 2.5/12, expand = FALSE)
 ```
 
 
@@ -90,10 +92,11 @@ library(tibble)
 library(stringr)
 talks <- tribble(
   ~ title, ~ ref,
+  "Nonparametric estimation of time-varying reproduction numbers", "https://dajmcdon.github.io/rtestim-2025/",
   "Introduction to epidemiological forecasting", "https://dajmcdon.github.io/vanml-epifcast/",
   "{epiprocess} and {epipredict}: R packages for signal processing and forecasting", "https://dajmcdon.github.io/cdc-tooling-packages/",
   "Advice on applying to graduate school", "https://dajmcdon.github.io/grad-school-pointers/",
-  "Markov switching state space models for uncovering musical interpretation", "https://dajmcdon.github.io/chopin-2022-slides/",
+  "Markov switching state space models for uncovering musical interpretation", "https://dajmcdon.github.io/hmms-chopin-2025/",
   "Your model is beautiful, but does it predict?", "https://dajmcdon.github.io/dsges/",
   "Statistical approaches to epidemic forecasting: Evaluation and software", "https://dajmcdon.github.io/epi-modelling-calgary-2023/",
   "Trend filtering in exponential families", "docs/talks/ExpFam-research-169.pdf",

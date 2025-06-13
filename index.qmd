@@ -23,8 +23,16 @@ about:
 <i class="bi bi-envelope"></i></a> 
 </div>
 
-Daniel is Associate Professor of Statistics at the University of British Columbia in Vancouver. His research interests involve the estimation and quantification of prediction risk, especially for structured or dependent data. This includes the application of statistical learning techniques to time series prediction problems for neuroscience, genetics, economics, and epidemiology.
+Daniel is Professor of Statistics at the University of British Columbia in 
+Vancouver. His research interests involve the estimation and quantification of
+prediction risk, especially for structured or dependent data. This includes the
+application of statistical learning techniques to time series prediction 
+problems for neuroscience, genetics, economics, and epidemiology.
 
-Associate Professor<br> [Department of Statistics](http://www.stat.ubc.ca)<br> [University of British Columbia](http://www.ubc.ca/)<br>
+Professor<br> 
+[Department of Statistics](http://www.stat.ubc.ca)<br> 
+[University of British Columbia](http://www.ubc.ca/)<br>
 
-3106 Earth Sciences Building<br> 2207 Main Mall<br> Vancouver, BC V6T 1Z4 Canada
+3106 Earth Sciences Building<br>
+2207 Main Mall<br>
+Vancouver, BC V6T 1Z4 Canada

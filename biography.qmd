@@ -4,12 +4,12 @@ title: "Biography"
 
 ```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5}
 #| column: screen
-cols <- c("#39507d", "#ff9200", "#D33F49", "#68A691")
-aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2) +
+cols <- paletteer::paletteer_d("MoMAColors::OKeeffe")
+aRtsy::canvas_segments(cols, n = 500, p = .25, size = .5, H = .2, background = "white") +
   ggplot2::coord_fixed(ratio = 2.5/12, expand = FALSE)
 ```
 
-Daniel is Associate Professor of Statistics at the University of British 
+Daniel is Professor of Statistics at the University of British 
 Columbia in Vancouver. Before moving North, he spent 8 years on the faculty at 
 Indiana University, Bloomington. His research interests involve the estimation 
 and quantification of prediction risk, especially developing methods for 
