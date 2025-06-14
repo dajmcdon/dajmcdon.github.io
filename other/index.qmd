@@ -97,6 +97,9 @@ work in Hispanic literature, and we're lucky to be at the same institution. We
 also have three(!!) wonderful cats that we spoil rotten.
 
 
+::: {.column-page-inset-left layout="[66,33]"}
+
 ![Gigi](/assets/img/gigi.JPG)
 
-
+![Zaza and Mago](/assets/img/zaza_mago.jpeg)
+:::
