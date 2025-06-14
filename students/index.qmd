@@ -15,14 +15,14 @@ title: "Information for Students"
 
 ### Alumni
 
-- Sarah Masri, MSc in Statistics
-- Tom Tang, MSc in Statistics (co-supervised with [Jiahua Chen](https://www.stat.ubc.ca/~jhchen/))
-- Christine Chuong, MSc in Statistics
-- Wakeel Adekunle Kasali, MSc in Statistics (co-supervised with [Nancy Heckman](https://www.stat.ubc.ca/users/nancy-e-heckman))
+- Sarah Masri, MSc in Statistics (UBC 2025)
+- Tom Tang, MSc in Statistics (co-supervised with [Jiahua Chen](https://www.stat.ubc.ca/~jhchen/), UBC 2025)
+- Christine Chuong, MSc in Statistics (UBC 2025)
+- Wakeel Adekunle Kasali, MSc in Statistics (co-supervised with [Nancy Heckman](https://www.stat.ubc.ca/users/nancy-e-heckman), UBC 2025)
 - Tigana Runte, MSc in Statistics (UBC 2023); Statistician at Cardiovascular Network of Canada
 - Elvis Cai, MSc in Statistics (co-supervised with [Paul Gustafson](http://paulgstf.com/), UBC 2023); Statistician at Centre for Health Evaluation and Outcome Sciences
-- William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/), UBC 2023); 
-- Ken Mawer, NSERC USRA (UBC 2022); MSc student in Statistics at UWaterloo
+- William Laplante, MSc in Statistics (co-supervised with [Ben Bloem-Reddy](https://www.stat.ubc.ca/~benbr/), UBC 2023); PhD student at UCL 
+- Ken Mawer, NSERC USRA (UBC 2022); MSc student at UWaterloo
 - Shuyi Tan, MSc in Statistics (UBC 2022); Data Analyst at VGH & UBC Hospital Foundation
 - Xiaoxuan Liang, MSc in Statistics (UBC 2022); PhD student in Computer Science at UBC
 - Wei Tang, MSc in Statistics (UBC 2022); Data Scientist at Amazon
@@ -47,9 +47,13 @@ aRtsy::canvas_circlemap(cols, right = 12, iterations = 5, bottom = .5, top = 1) 
 
 ## Applying to UBC Statistics or MDS Programs 
 
-I generally have no special powers when it comes to being admitted to MSc/PhD or MDS programs. At UBC, students are admitted to the department before choosing an advisor later in their program. If you are interested, I encourage you to consult the [department website](https://www.stat.ubc.ca/graduate).
+I generally have no special powers when it comes to being admitted to MSc/PhD or
+MDS programs. At UBC, students are admitted to the department before choosing an
+advisor later in their program. If you are interested, I encourage you to 
+consult the [department website](https://www.stat.ubc.ca/graduate).
 
-If you want to learn more, your best bet is to email the [Graduate Admissions Officer](mailto:admiss@stat.ubc.ca).
+If you want to learn more, your best bet is to email the 
+[Graduate Admissions Officer](mailto:admiss@stat.ubc.ca).
 
 ## Requesting letters of recommendation 
 
@@ -60,18 +64,17 @@ In these cases, I suggest asking someone else who can provide more detailed
 descriptions of your unique strengths. 
 
 If you are currently enrolled in class with me, and you would like a letter, I 
-will ask that you attend office hours, ask questions, of in another way give me
-some information about yourself. Without such interaction, I will likely write a
-generic "this student took a class with me" letter, but experience suggests that
-this type of letter is not likely to help you to be admitted to graduate school.
+will ask that you attend office hours, ask questions, or in another way give me
+some information about yourself. Without such interaction, I cannot write a 
+helpful letter.
 
 In order for me to write, I will need at least **two** weeks notice before the
 first deadline. 
 
-- A description of any notable interactions we've had that I should highlight.
+- A description of notable interactions we've had that I should highlight.
 This means personal interactions, not a description of the material you liked
-in my course. Without this, I cannot write a letter.
-- If you have a preferred name as well as a given name, please list both. I 
+in my course.
+- If you have a preferred name as well as a given name, please list both.
 I need to be able to connect your email to your application and potentially to
 your Canvas profile.
 - A list of all positions to which you are applying along with deadlines for
