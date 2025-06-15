@@ -17,7 +17,7 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 - Stat 302 WT2
 - Stat 548 PhD Qualifying [Papers](stat548.qmd)
 
-```{r segments}
+```{r swirls}
 #| warning: FALSE
 #| echo: FALSE
 #| out-width: "100%"
@@ -25,9 +25,9 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 #| fig-width: 12 
 #| fig-height: 2.5
 #| column: screen-left
+source(here::here("_rcode/constants.R"))
 cols <- paletteer::paletteer_d("MoMAColors::Panton")
-aRtsy::canvas_swirls(cols, background = "white", n = 100, iterations = 400) +
-  ggplot2::coord_fixed(ratio = 2.5/12, expand = FALSE)
+aRtsy::canvas_swirls(cols, background = body_bg, n = 100, iterations = 400)
 ```
 
 

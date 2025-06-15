@@ -11,15 +11,9 @@ title: All papers and preprints
 #| fig.width: 12
 #| fig.height: 2.5
 #| column: screen
+source(here::here("_rcode/constants.R"))
 cols <- paletteer::paletteer_d("MoMAColors::VanGogh")
-aRtsy::canvas_slime(background = "white", colors = cols, layout = "clusters") +
-# pal <- c("#01364f", "#247c86", "#84231e")
-# djm_flow(pal, nlines = 1000, geom_type = "geom_point",
-#          tapering = "bellshaped", noise_types = "perlin", 
-#          lwd_par = .1, min_length = 20*.01, iterations = 100,
-#          top = 20 * 1.5, bottom = 20 * -0.5,
-#          color_fun = function(x, y) sample(pal, length(x), TRUE)) +
-  ggplot2::coord_fixed(ratio = 2.5 / 12, expand = FALSE)
+aRtsy::canvas_slime(background = body_bg, colors = cols, layout = "clusters")
 ```
 
 

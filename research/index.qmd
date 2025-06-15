@@ -24,16 +24,9 @@ preference for simple fundamental structures.
 
 ```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, message=FALSE}
 #| column: screen-left
-# source(here::here("_rcode", "djm_flow.R"))
+source(here::here("_rcode/constants.R"))
 cols <- paletteer::paletteer_d("MoMAColors::VanGogh")
-# djm_flow(pal, nlines = 5000, 
-#          tapering = "bellshaped", noise_types = "perlin", 
-#          lwd_par = .3, min_length = 20*.01, iterations = 200,
-#          top = 20 * 1.5, bottom = 20 * -0.5,
-#          color_fun = function(x, y) sample(pal, length(x), TRUE)) +
-#   ggplot2::coord_fixed(expand = FALSE)
-aRtsy::canvas_flow(cols, background = "white", lines = 500, lwd = .3, iterations = 200) +
-  ggplot2::coord_fixed(ratio = 2.5/12, expand = FALSE)
+aRtsy::canvas_flow(cols, background = body_bg, lines = 500, lwd = .3, iterations = 200)
 ```
 
 

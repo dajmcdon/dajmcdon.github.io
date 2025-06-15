@@ -37,11 +37,14 @@ title: "Information for Students"
 - Lijiang Guo, PhD Qualifier (IUB 2014); PhD student in ISE at IUB
 
 
-```{r, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5, eval=FALSE}
+```{r chladni, warning=FALSE, echo=FALSE, out.width="100%", out.height="2.5in", fig.width=12, fig.height=2.5}
 #| column: screen-left
-cols <- aRtsy::colorPalette("dark2")
-aRtsy::canvas_circlemap(cols, right = 12, iterations = 5, bottom = .5, top = 1) + 
-  ggplot2::coord_fixed(ratio = 2.5 / 12, expand = FALSE)
+library(ggplot2)
+source(here::here("_rcode/constants.R"))
+aRtsy::canvas_chladni(colors = paletteer::paletteer_d("MoMAColors::Abbott"), 
+               warp = .2, angles = "perlin") +
+  theme(panel.background = element_rect(fill = body_bg, color = body_bg)) +
+  coord_fixed(ratio = 2.5/12, expand = FALSE)
 ```
 
 
