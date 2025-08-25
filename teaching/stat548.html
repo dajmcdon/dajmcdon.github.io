@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,10 +33,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b6a1060ae9ed3a724b05dd098192097a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5958acdcb74296a42ddcaa881704cfc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -149,7 +149,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 </header>
 
 
-<p>Last updated: 12 March 2025</p>
+<p>Last updated: 25 August 2025</p>
 <section id="choosing-a-paper" class="level2">
 <h2 class="anchored" data-anchor-id="choosing-a-paper">Choosing a paper</h2>
 <p>At the end of this document is a list of papers and project ideas that I am interested in supervising as Qualifying Papers (QPs). I am happy to discuss any other paper that you are interested in and think might be appropriate. I am generally interested in theoretical and methodological aspects of statistics and machine learning, especially those that relate to regularization, optimization, model selection, and time series forecasting.</p>
@@ -193,7 +193,6 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <p>Some resources on technical/mathematical writing:</p>
 <ul>
-<li>Nancy Heckman’s page on <a href="https://www.ugrad.stat.ubc.ca/~nancy/writing">writing</a></li>
 <li>Harry Joe’s <a href="https://www.stat.ubc.ca/~harry/papers/">advice and writing resources for 548</a></li>
 <li>Trevor Campbell’s <a href="https://docs.google.com/presentation/d/13vwchlzQAZjjfiI3AiBC_kM-syI6GJKzbuZoLxgy1a4/edit#slide=id.g4fbcbb044c_0_0">How to Explain Things talk</a></li>
 <li>Knuth, Larrabee, and Roberts on <a href="http://www.jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf">mathematical writing</a></li>
@@ -271,21 +270,31 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
   *Themes:* Time series, infectious disease, point processes.  
   *Project:* Carefully explain the connections between Hawkes processes, SIR models, and state-space models. 
 
+2024
+
+
+1. ~~Heng, Zhou, and Chi (2023). [Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo](https://doi.org/10.1080/10618600.2023.2170089)~~  
+  ~~*Themes:* Non-parametric regression, computation.~~  
+  ~~*Project:* Compare the methods with the `{trendfilter}` package in terms of 
+  speed/accuracy. Describe any advantages or disadvantages.~~
+  
+  
+1. ~~Bergmeir, Hyndman, Koo (2017). [A note on the validity of cross-validation for evaluating autoregressive time series prediction](https://robjhyndman.com/papers/cv-wp.pdf)~~  
+  ~~*Themes:* Time series, model selection, risk estimation.~~  
+  ~~*Project:* Mimic a similar experiment using AR data with lasso and CV vs 
+  OOS estimation. Examine the proof of Theorem 1 and describe how we might be 
+  able to extend these results to "mixing" processes (or why we can't).~~
+
 
 --->
 <ol type="1">
-<li><p><del>Heng, Zhou, and Chi (2023). <a href="https://doi.org/10.1080/10618600.2023.2170089">Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo</a></del><br>
-<del><em>Themes:</em> Non-parametric regression, computation.</del><br>
-<del><em>Project:</em> Compare the methods with the <code>{trendfilter}</code> package in terms of speed/accuracy. Describe any advantages or disadvantages.</del></p></li>
-<li><p><del>Bergmeir, Hyndman, Koo (2017). <a href="https://robjhyndman.com/papers/cv-wp.pdf">A note on the validity of cross-validation for evaluating autoregressive time series prediction</a></del><br>
-<del><em>Themes:</em> Time series, model selection, risk estimation.</del><br>
-<del><em>Project:</em> Mimic a similar experiment using AR data with lasso and CV vs OOS estimation. Examine the proof of Theorem 1 and describe how we might be able to extend these results to “mixing” processes (or why we can’t).</del></p></li>
 <li><p>Anderson (2001). <a href="https://doi.org/10.1175/1520-0493(2001)129%3C2884:AEAKFF%3E2.0.CO;2">An ensemble adjustment Kalman filter for data assimilation</a><br>
 <em>Themes:</em> Time series, epidemiology.<br>
 <em>Project:</em> Read this paper along with <a href="https://doi.org/10.1073/pnas.1208772109">Shaman and Karspeck (2012)</a>, <a href="https://doi.org/10.1371/journal.pcbi.1006783">Pei, Cane, and Shaman (2019)</a>, or any additional follow-up work you find relevant. Describe carefully how the EAKF is used for disease models.</p></li>
 <li><p>Parag, Thompson, Donnelly (2022). <a href="https://doi.org/10.1111/rssa.12867">Are Epidemic Growth Rates More Informative than Reproduction Numbers?</a><br>
 <em>Themes:</em> Time series, epidemiology.<br>
 <em>Project:</em> Discuss how one might modify <a href="https://doi.org/10.1101/2023.12.18.23299302"><code>{rtestim}</code></a> to estimate growth rates.</p></li>
+<li><p>Johnson, Tang, Tyszka, et al.&nbsp;(2025). <a href="https://doi.org/10.1101/2025.08.14.25333653">Baseline nowcasting methods for handling delays in epidemiological data</a> <em>Themes:</em> Time series, epidemiology, data revisioning, missing data. <em>Project:</em> Discuss alternative matrix completion and missing data methods for the revision triangle. Examine their impacts if possible.</p></li>
 </ol>
 
 
