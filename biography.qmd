@@ -34,7 +34,7 @@ Institute, the U.S. Centers for Disease Control, and the National Sciences and
 Engineering Research Council of Canada. 
 
 Since the beginning of the COVID-19 pandemic, much of Daniel's applied work has 
-focused on methods for understanding and modelling epidemiological data. He is 
+focused on methods for understanding and modelling epidemiological data. He was 
 a core member of the [BC COVID-19 Modelling Group](https://bccovid-19group.ca) 
 and works on research, forecasting, nowcasting, and software development with 
 Carnegie Mellon University's [Delphi Research Group](https://delphi.cmu.edu).

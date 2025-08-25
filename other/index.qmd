@@ -15,8 +15,9 @@ title: "Links, resources and additional information"
 
 (See [github/dajmcdon](http://github.com/dajmcdon) or my
   [publications page](/research/all-pubs.html) for others)
-  
-* [`{fkf}`](https://waternumbers.github.io/FKF/index.html): __Fast Kalman Filter.__
+
+* [glmgen](https://github.com/glmgen)  Trend filtering and related packages.
+* [`{fkf}`](https://waternumbers.github.io/FKF/index.html) __Fast Kalman Filter.__
   Very fast Kalman filtering and smoothing. 
 * [`{sparsegl}`](https://dajmcdon.github.io/sparsegl/) __Sparse Group Lasso.__
     Efficient implementation of sparse group lasso with optional bound constraints

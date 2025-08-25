@@ -14,7 +14,7 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 
 ## Current courses
 
-- Stat 302 WT2
+- Stat 302 2025 WT2
 - Stat 548 PhD Qualifying [Papers](stat548.qmd)
 
 ```{r swirls}
@@ -36,29 +36,24 @@ aRtsy::canvas_swirls(cols, background = body_bg, n = 100, iterations = 400)
 #### At UBC
 
 - [Stat 406](https://ubc-stat.github.io/stat-406/) Methods for Statistical Learning
-
 - [Stat 550](https://ubc-stat.github.io/stat-550/) Techniques of Statistical Consulting
-
 - [Stat 535a](https://ubc-stat.github.io/stat-535-convexopt) Topics in Computational Statistics: Convex Optimization
 
 #### At Indiana University, Bloomington
 
 - S100 Statistical Literacy (Sp20)
-
 - S432 Applied Linear Models II (Sp16) (Sp17) (Sp18) (Sp20)
-
 - S771/S772/785 Seminar on Statistical Theory (Fa16--Sp17) (Fa19--Sp20)
-
--   S782 Topics in Statistical Learning Theory (Fa17)
+- S782 Topics in Statistical Learning Theory (Fa17)
 
 #### At the University of Chicago, Booth School of Business
 
 - 41-911 Advanced Econometrics (Aut18)
 
-#### For CDC/CFA InsightNet 
+#### For CDC/CFA InsightNet and CANSSI Praries
 
 - [Workshop on Aggregate Epidemiological Data and Forecasting](https://cmu-delphi.github.io/insightnet-workshop-2024/)
-
+- [Workshop on Processing and Forecasting with Epidemic Surveillance Data](https://dajmcdon.github.io/canssip-epidata-2025/)
 
 #### At the Institute for New Economic Thinking
 

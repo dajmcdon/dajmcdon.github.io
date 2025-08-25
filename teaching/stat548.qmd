@@ -2,7 +2,7 @@
 title: Stat 548 - Qualifying Papers
 ---
 
-Last updated: 12 March 2025
+Last updated: 25 August 2025
 
 ## Choosing a paper
 
@@ -84,7 +84,6 @@ language you wish, though my strong preference is for `R` or `python`.
 
 Some resources on technical/mathematical writing:
 
-* Nancy Heckman's page on [writing](https://www.ugrad.stat.ubc.ca/~nancy/writing)
 * Harry Joe's [advice and writing resources for 548](https://www.stat.ubc.ca/~harry/papers/)
 * Trevor Campbell's [How to Explain Things talk](https://docs.google.com/presentation/d/13vwchlzQAZjjfiI3AiBC_kM-syI6GJKzbuZoLxgy1a4/edit#slide=id.g4fbcbb044c_0_0)
 * Knuth, Larrabee, and Roberts on [mathematical writing](http://www.jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf)
@@ -164,9 +163,8 @@ Some resources on technical/mathematical writing:
   *Themes:* Time series, infectious disease, point processes.  
   *Project:* Carefully explain the connections between Hawkes processes, SIR models, and state-space models. 
 
+2024
 
---->
-```
 
 1. ~~Heng, Zhou, and Chi (2023). [Bayesian Trend Filtering via Proximal Markov Chain Monte Carlo](https://doi.org/10.1080/10618600.2023.2170089)~~  
   ~~*Themes:* Non-parametric regression, computation.~~  
@@ -180,14 +178,27 @@ Some resources on technical/mathematical writing:
   OOS estimation. Examine the proof of Theorem 1 and describe how we might be 
   able to extend these results to "mixing" processes (or why we can't).~~
 
-1. Anderson (2001). [An ensemble adjustment Kalman filter for data assimilation](https://doi.org/10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2)  
+
+--->
+```
+
+1. Anderson (2001). 
+  [An ensemble adjustment Kalman filter for data assimilation](https://doi.org/10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2)  
   *Themes:* Time series, epidemiology.  
   *Project:* Read this paper along with [Shaman and Karspeck (2012)](https://doi.org/10.1073/pnas.1208772109),
   [Pei, Cane, and Shaman (2019)](https://doi.org/10.1371/journal.pcbi.1006783), or any
   additional follow-up work you find relevant. Describe carefully how the EAKF is 
   used for disease models.
   
-1. Parag, Thompson, Donnelly (2022). [Are Epidemic Growth Rates More Informative than Reproduction Numbers?](https://doi.org/10.1111/rssa.12867)  
+1. Parag, Thompson, Donnelly (2022). 
+  [Are Epidemic Growth Rates More Informative than Reproduction Numbers?](https://doi.org/10.1111/rssa.12867)  
   *Themes:* Time series, epidemiology.  
   *Project:* Discuss how one might modify [`{rtestim}`](https://doi.org/10.1101/2023.12.18.23299302 )
   to estimate growth rates.
+  
+1. Johnson, Tang, Tyszka, et al. (2025). 
+  [Baseline nowcasting methods for handling delays in epidemiological data](https://doi.org/10.1101/2025.08.14.25333653)
+  *Themes:* Time series, epidemiology, data revisioning, missing data.
+  *Project:* Discuss alternative matrix completion and missing data methods for 
+  the revision triangle. Examine their impacts if possible. 
+  

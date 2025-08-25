@@ -13,7 +13,8 @@ title: All papers and preprints
 #| column: screen
 source(here::here("_rcode/constants.R"))
 cols <- paletteer::paletteer_d("MoMAColors::VanGogh")
-aRtsy::canvas_slime(background = body_bg, colors = cols, layout = "clusters")
+aRtsy::canvas_slime(background = body_bg, colors = cols, layout = "clusters") +
+  ggplot2::coord_fixed(ratio = 2.5 / 12, expand = FALSE)
 ```
 
 

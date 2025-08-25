@@ -40,8 +40,7 @@ title: "Information for Students"
 #| column: screen-left
 library(ggplot2)
 source(here::here("_rcode/constants.R"))
-aRtsy::canvas_chladni(colors = paletteer::paletteer_d("MoMAColors::Abbott"), 
-               warp = .2, angles = "perlin") +
+aRtsy::canvas_nebula(colors = paletteer::paletteer_d("MoMAColors::OKeeffe")) +
   theme(panel.background = element_rect(fill = body_bg, color = body_bg)) +
   coord_fixed(ratio = 2.5/12, expand = FALSE)
 ```
