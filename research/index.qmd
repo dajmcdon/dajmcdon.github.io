@@ -44,10 +44,10 @@ keep_fields <- toupper(c(
   "title", "volume", "year", "arxiv", "url",
   "code", "pdf"))
 
-df <- df[, keep_fields] %>% arrange(desc(YEAR))
+df <- df[, keep_fields] |> arrange(desc(YEAR))
 source(here::here("_rcode", "render-pubs.R"))
 
-df2 <- df %>%
+df2 <- df |>
   transmute(
     year = clean_str(YEAR),
     title = fmt_title(TITLE),
@@ -56,7 +56,7 @@ df2 <- df %>%
     skip = is.na(URL) & is.na(ARXIV) & is.na(PDF) & is.na(CODE)
   )
 df2$authors = sapply(df$AUTHOR, fmt_names)
-df2 <- df2 %>% filter(!skip)
+df2 <- df2 |> filter(!skip)
 ```
 
 ```{r, error=FALSE, warning=FALSE, results="asis", echo=FALSE}

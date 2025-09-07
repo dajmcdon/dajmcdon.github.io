@@ -5,11 +5,11 @@ na_blank <- function(x) {
 }
 
 fmt_names <- function(x, max_names = 4) {
-  x <- x %>%
+  x <- x |>
     mutate(fn = substr(first_name, 1, 1),
            mn = substr(na_blank(middle_name), 1, 1),
-           nn = str_glue("{last_name}, {fn}{mn}")) %>%
-    pull(nn) %>%
+           nn = str_glue("{last_name}, {fn}{mn}")) |>
+    pull(nn) |>
     as.character()
   if (length(x) > max_names) x <- c(x[1:max_names], "et al.")
   paste(x, collapse = ", ")
