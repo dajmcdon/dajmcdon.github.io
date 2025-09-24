@@ -354,7 +354,7 @@
     "href": "teaching/stat548.html",
     "title": "Stat 548 - Qualifying Papers",
     "section": "",
-    "text": "Last updated: 25 August 2025"
+    "text": "Last updated: 24 September 2025"
   },
   {
     "objectID": "teaching/stat548.html#choosing-a-paper",
@@ -389,7 +389,7 @@
     "href": "teaching/stat548.html#available-papers",
     "title": "Stat 548 - Qualifying Papers",
     "section": "Available papers",
-    "text": "Available papers\n\n\n\nAnderson (2001). An ensemble adjustment Kalman filter for data assimilation\nThemes: Time series, epidemiology.\nProject: Read this paper along with Shaman and Karspeck (2012), Pei, Cane, and Shaman (2019), or any additional follow-up work you find relevant. Describe carefully how the EAKF is used for disease models.\nParag, Thompson, Donnelly (2022). Are Epidemic Growth Rates More Informative than Reproduction Numbers?\nThemes: Time series, epidemiology.\nProject: Discuss how one might modify {rtestim} to estimate growth rates.\nJohnson, Tang, Tyszka, et al. (2025). Baseline nowcasting methods for handling delays in epidemiological data Themes: Time series, epidemiology, data revisioning, missing data. Project: Discuss alternative matrix completion and missing data methods for the revision triangle. Examine their impacts if possible."
+    "text": "Available papers\n\n\n\nAnderson (2001). An ensemble adjustment Kalman filter for data assimilation\nThemes: Time series, epidemiology.\nProject: Read this paper along with Shaman and Karspeck (2012), Pei, Cane, and Shaman (2019), or any additional follow-up work you find relevant. Describe carefully how the EAKF is used for disease models.\nParag, Thompson, Donnelly (2022). Are Epidemic Growth Rates More Informative than Reproduction Numbers?\nThemes: Time series, epidemiology.\nProject: Discuss how one might modify {rtestim} to estimate growth rates.\nJohnson, Tang, Tyszka, et al. (2025). Baseline nowcasting methods for handling delays in epidemiological data\nThemes: Time series, epidemiology, data revisioning, missing data.\nProject: Discuss alternative matrix completion and missing data methods for the revision triangle. Examine their impacts if possible."
   },
   {
     "objectID": "teaching/stat548.html#footnotes",
