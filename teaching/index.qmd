@@ -14,8 +14,8 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 
 ## Current courses
 
-- Stat 302 2025 WT2
-- Stat 548 PhD Qualifying [Papers](stat548.qmd)
+- [Stat 302](https://ubc-stat.github.io/stat-302) 2025 WT2
+- [Stat 548](stat548.qmd) PhD Qualifying Papers
 
 ```{r swirls}
 #| warning: FALSE
