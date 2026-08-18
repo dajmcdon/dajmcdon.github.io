@@ -14,7 +14,8 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 
 ## Current courses
 
-- [Stat 302](https://ubc-stat.github.io/stat-302) 2025 WT2
+- [Stat 460/560](https://ubc-stat.github.io/stat-460/) 2026 WT1
+- [Stat 302](https://ubc-stat.github.io/stat-302) 2026 WT2
 - [Stat 548](stat548.qmd) PhD Qualifying Papers
 
 ```{r swirls}
@@ -22,7 +23,7 @@ Going beyond the didacticism of basic statistical literacy, I strive to inform s
 #| echo: FALSE
 #| out-width: "100%"
 #| out-height: "2.5in"
-#| fig-width: 12 
+#| fig-width: 12
 #| fig-height: 2.5
 #| column: screen-left
 source(here::here("_rcode/constants.R"))
