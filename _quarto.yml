@@ -28,7 +28,7 @@ website:
         text: OTHER
   page-footer:
     border: false
-    right: "© 2025 Daniel J. McDonald"
+    right: "© 2026 Daniel J. McDonald"
     center: |
       <a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a>
       <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>
@@ -46,4 +46,3 @@ format:
     include-in-header: assets/header.html
 
 editor: source
-
