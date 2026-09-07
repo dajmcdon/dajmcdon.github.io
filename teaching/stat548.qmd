@@ -1,13 +1,15 @@
 ---
-title: Stat 548 - Qualifying Papers
+title: Stat 548 Papers
+date: last-modified
+date-format: "DD MMM YYYY"
+language:
+  title-block-published: "Last updated"
 ---
-
-Last updated: 24 September 2025
 
 ## Choosing a paper
 
 At the end of this document is a list of papers and project ideas that I am 
-interested in supervising as Qualifying Papers (QPs). I am happy to discuss 
+interested in supervising as 548 Papers (QPs). I am happy to discuss 
 any other paper that you are interested in and think might be appropriate. 
 I am generally interested in theoretical and methodological aspects of 
 statistics and machine learning, especially those that relate to regularization,
@@ -16,13 +18,12 @@ optimization, model selection, and time series forecasting.
 ## Expectations
 
 If you are interested in doing a QP with me, the first step is to email me to 
-schedule a one-on-one meeting. Please use the words "Qualifying Paper" in the 
+schedule a one-on-one meeting. Please use the words "548 Paper" in the 
 subject line of your email. At our first meeting, please be prepared to discuss:
 
 * Your background. 
 * Your long-term research interests (it's okay if these are not yet well-defined). 
 * Why you are interested in the particular paper/project. 
-* When you will submit your report (typically about four-six weeks after we meet). 
 * The details of the QP project and report. 
 * Any concerns you may have.
 
@@ -89,6 +90,7 @@ Some resources on technical/mathematical writing:
 * Knuth, Larrabee, and Roberts on [mathematical writing](http://www.jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf)
 * Jenny Bryan's [Happy Git with R](https://happygitwithr.com)
 * Getting started with Git: [chapters 1 and 2](https://git-scm.com/book/en/v2) should be all you need for this report
+* Mark Schmidt's [Notes on Writing](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/writing.pdf)
 
 ## Available papers
 
@@ -108,10 +110,6 @@ Some resources on technical/mathematical writing:
 ~~_Themes:_ optimization, regularization, linear models~~  
 ~~_Project:_ Consider the simple case of ordinary least squares. How might one extend the results here for GD to Proximal GD? What can we say about the lasso path?~~
 
---->
-```
-```{=html}
-<!---
 2021
 
 1. ~~McHenry. [Computation of a best subset in multivariate analysis](https://www.jstor.org/stable/pdf/2347164.pdf?refreqid=excelsior%3A3ed88713f6d71218db5738d9e3872bad)~~  
@@ -179,17 +177,8 @@ Some resources on technical/mathematical writing:
   able to extend these results to "mixing" processes (or why we can't).~~
 
 
---->
-```
+2025
 
-1. Anderson (2001). 
-  [An ensemble adjustment Kalman filter for data assimilation](https://doi.org/10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2)  
-  *Themes:* Time series, epidemiology.  
-  *Project:* Read this paper along with [Shaman and Karspeck (2012)](https://doi.org/10.1073/pnas.1208772109),
-  [Pei, Cane, and Shaman (2019)](https://doi.org/10.1371/journal.pcbi.1006783), or any
-  additional follow-up work you find relevant. Describe carefully how the EAKF is 
-  used for disease models.
-  
 1. ~~Parag, Thompson, Donnelly (2022).~~ 
   ~~[Are Epidemic Growth Rates More Informative than Reproduction Numbers?](https://doi.org/10.1111/rssa.12867)~~  
   ~~*Themes:* Time series, epidemiology.~~  
@@ -201,4 +190,45 @@ Some resources on technical/mathematical writing:
   *Themes:* Time series, epidemiology, data revisioning, missing data.  
   *Project:* Discuss alternative matrix completion and missing data methods for 
   the revision triangle. Examine their impacts if possible. 
+
+
+
+--->
+```
+
+1. Anderson (2001).  
+  [An ensemble adjustment Kalman filter for data assimilation](https://doi.org/10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2)  
+  *Themes:* Time series, epidemiology.  
+  *Project:* Read this paper along with [Shaman and Karspeck (2012)](https://doi.org/10.1073/pnas.1208772109),
+  [Pei, Cane, and Shaman (2019)](https://doi.org/10.1371/journal.pcbi.1006783), or any
+  additional follow-up work you find relevant. Describe carefully how the EAKF is 
+  used for disease models.
   
+1. Li, Menacho, and Rodríguez (2025).  
+   [Optimization-based Online Conformal Prediction for Multi-step Forecasting](https://arxiv.org/abs/2508.13362?)  
+   *Themes:* Time series, forecasting, conformal prediction.   
+   *Project:*
+   Undertake a careful experiment using the Flu Forecasting dataset. Compare the
+   results of the proposed method with a simple baseline (e.g., ARIMA or ETS).
+   Discuss any difficulties you encounter in implementing the method and how you
+   overcame them.
+
+1. Angelopoulos, Jordan, and Tibshirani (2025).  
+   [Gradient Equilibrium in Online Learning: Theory and Applications](https://arxiv.org/abs/2501.08330)  
+   *Themes:* Online learning, optimization, time series.  
+   *Project:* This paper is quite theoretical. The "project" should largely
+   focus on understanding the types of methods that are amenable to the proposed
+   approach. Additionally, investigate whether the Kalman Filter satisfies the
+   conditions of the main theorem. If so, discuss how the results of this paper
+   might be applied to improve Kalman Filter predictions for latent or observed processes.
+
+1. Tang, Wilder, and Rosenfeld (2026).  
+   [Delay distributions limit the identifiability of rapid variations in epidemics](https://doi.org/10.64898/2026.07.23.26358599)  
+   *Themes:* Time series, epidemiology, identifiability.  
+   *Project:* The setup of this paper is largely theoretical, but the results
+   are empirical. The project should focus on relating the setup to actual
+   identifiability criteria in statistics. Can we formalize the identifiability
+   problem in a more general way? Can we derive minimax lower bounds for the
+   deconvolution problem? (The project is not to *solve* these but to describe
+   how one might go about doing so, what simplifications might be necessary, and
+   what the bottlenecks might be.)
