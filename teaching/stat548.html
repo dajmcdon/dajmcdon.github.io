@@ -2,17 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-09-07">
 
-<title>Stat 548 - Qualifying Papers – DJM</title>
+<title>Stat 548 Papers – DJM</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -29,15 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-681aaa8968e549756f6e198e162d7a9b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4d035f24dd9cf782a29d29d0b6b75272.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -134,7 +140,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Stat 548 - Qualifying Papers</h1>
+<h1 class="title">Stat 548 Papers</h1>
 </div>
 
 
@@ -142,6 +148,12 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Last updated</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">07 Sep 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -151,19 +163,17 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 </header>
 
 
-<p>Last updated: 24 September 2025</p>
 <section id="choosing-a-paper" class="level2">
 <h2 class="anchored" data-anchor-id="choosing-a-paper">Choosing a paper</h2>
-<p>At the end of this document is a list of papers and project ideas that I am interested in supervising as Qualifying Papers (QPs). I am happy to discuss any other paper that you are interested in and think might be appropriate. I am generally interested in theoretical and methodological aspects of statistics and machine learning, especially those that relate to regularization, optimization, model selection, and time series forecasting.</p>
+<p>At the end of this document is a list of papers and project ideas that I am interested in supervising as 548 Papers (QPs). I am happy to discuss any other paper that you are interested in and think might be appropriate. I am generally interested in theoretical and methodological aspects of statistics and machine learning, especially those that relate to regularization, optimization, model selection, and time series forecasting.</p>
 </section>
 <section id="expectations" class="level2">
 <h2 class="anchored" data-anchor-id="expectations">Expectations</h2>
-<p>If you are interested in doing a QP with me, the first step is to email me to schedule a one-on-one meeting. Please use the words “Qualifying Paper” in the subject line of your email. At our first meeting, please be prepared to discuss:</p>
+<p>If you are interested in doing a QP with me, the first step is to email me to schedule a one-on-one meeting. Please use the words “548 Paper” in the subject line of your email. At our first meeting, please be prepared to discuss:</p>
 <ul>
 <li>Your background.</li>
 <li>Your long-term research interests (it’s okay if these are not yet well-defined).</li>
 <li>Why you are interested in the particular paper/project.</li>
-<li>When you will submit your report (typically about four-six weeks after we meet).</li>
 <li>The details of the QP project and report.</li>
 <li>Any concerns you may have.</li>
 </ul>
@@ -200,6 +210,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <li>Knuth, Larrabee, and Roberts on <a href="http://www.jmlr.org/reviewing-papers/knuth_mathematical_writing.pdf">mathematical writing</a></li>
 <li>Jenny Bryan’s <a href="https://happygitwithr.com">Happy Git with R</a></li>
 <li>Getting started with Git: <a href="https://git-scm.com/book/en/v2">chapters 1 and 2</a> should be all you need for this report</li>
+<li>Mark Schmidt’s <a href="https://www.cs.ubc.ca/~schmidtm/Courses/Notes/writing.pdf">Notes on Writing</a></li>
 </ul>
 </section>
 <section id="available-papers" class="level2">
@@ -219,8 +230,6 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 ~~_Themes:_ optimization, regularization, linear models~~  
 ~~_Project:_ Consider the simple case of ordinary least squares. How might one extend the results here for GD to Proximal GD? What can we say about the lasso path?~~
 
---->
-<!---
 2021
 
 1. ~~McHenry. [Computation of a best subset in multivariate analysis](https://www.jstor.org/stable/pdf/2347164.pdf?refreqid=excelsior%3A3ed88713f6d71218db5738d9e3872bad)~~  
@@ -288,17 +297,40 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
   able to extend these results to "mixing" processes (or why we can't).~~
 
 
+2025
+
+1. ~~Parag, Thompson, Donnelly (2022).~~ 
+  ~~[Are Epidemic Growth Rates More Informative than Reproduction Numbers?](https://doi.org/10.1111/rssa.12867)~~  
+  ~~*Themes:* Time series, epidemiology.~~  
+  ~~*Project:* Discuss how one might modify [`{rtestim}`](https://doi.org/10.1101/2023.12.18.23299302 )
+  to estimate growth rates.~~
+  
+1. Johnson, Tang, Tyszka, et al. (2025). 
+  [Baseline nowcasting methods for handling delays in epidemiological data](https://doi.org/10.1101/2025.08.14.25333653)  
+  *Themes:* Time series, epidemiology, data revisioning, missing data.  
+  *Project:* Discuss alternative matrix completion and missing data methods for 
+  the revision triangle. Examine their impacts if possible. 
+
+
+
 --->
 <ol type="1">
-<li><p>Anderson (2001). <a href="https://doi.org/10.1175/1520-0493(2001)129%3C2884:AEAKFF%3E2.0.CO;2">An ensemble adjustment Kalman filter for data assimilation</a><br>
+<li><p>Anderson (2001).<br>
+<a href="https://doi.org/10.1175/1520-0493(2001)129%3C2884:AEAKFF%3E2.0.CO;2">An ensemble adjustment Kalman filter for data assimilation</a><br>
 <em>Themes:</em> Time series, epidemiology.<br>
 <em>Project:</em> Read this paper along with <a href="https://doi.org/10.1073/pnas.1208772109">Shaman and Karspeck (2012)</a>, <a href="https://doi.org/10.1371/journal.pcbi.1006783">Pei, Cane, and Shaman (2019)</a>, or any additional follow-up work you find relevant. Describe carefully how the EAKF is used for disease models.</p></li>
-<li><p><del>Parag, Thompson, Donnelly (2022).</del> <del><a href="https://doi.org/10.1111/rssa.12867">Are Epidemic Growth Rates More Informative than Reproduction Numbers?</a></del><br>
-<del><em>Themes:</em> Time series, epidemiology.</del><br>
-<del><em>Project:</em> Discuss how one might modify <a href="https://doi.org/10.1101/2023.12.18.23299302"><code>{rtestim}</code></a> to estimate growth rates.</del></p></li>
-<li><p>Johnson, Tang, Tyszka, et al.&nbsp;(2025). <a href="https://doi.org/10.1101/2025.08.14.25333653">Baseline nowcasting methods for handling delays in epidemiological data</a><br>
-<em>Themes:</em> Time series, epidemiology, data revisioning, missing data.<br>
-<em>Project:</em> Discuss alternative matrix completion and missing data methods for the revision triangle. Examine their impacts if possible.</p></li>
+<li><p>Li, Menacho, and Rodríguez (2025).<br>
+<a href="https://arxiv.org/abs/2508.13362?">Optimization-based Online Conformal Prediction for Multi-step Forecasting</a><br>
+<em>Themes:</em> Time series, forecasting, conformal prediction.<br>
+<em>Project:</em> Undertake a careful experiment using the Flu Forecasting dataset. Compare the results of the proposed method with a simple baseline (e.g., ARIMA or ETS). Discuss any difficulties you encounter in implementing the method and how you overcame them.</p></li>
+<li><p>Angelopoulos, Jordan, and Tibshirani (2025).<br>
+<a href="https://arxiv.org/abs/2501.08330">Gradient Equilibrium in Online Learning: Theory and Applications</a><br>
+<em>Themes:</em> Online learning, optimization, time series.<br>
+<em>Project:</em> This paper is quite theoretical. The “project” should largely focus on understanding the types of methods that are amenable to the proposed approach. Additionally, investigate whether the Kalman Filter satisfies the conditions of the main theorem. If so, discuss how the results of this paper might be applied to improve Kalman Filter predictions for latent or observed processes.</p></li>
+<li><p>Tang, Wilder, and Rosenfeld (2026).<br>
+<a href="https://doi.org/10.64898/2026.07.23.26358599">Delay distributions limit the identifiability of rapid variations in epidemics</a><br>
+<em>Themes:</em> Time series, epidemiology, identifiability.<br>
+<em>Project:</em> The setup of this paper is largely theoretical, but the results are empirical. The project should focus on relating the setup to actual identifiability criteria in statistics. Can we formalize the identifiability problem in a more general way? Can we derive minimax lower bounds for the deconvolution problem? (The project is not to <em>solve</em> these but to describe how one might go about doing so, what simplifications might be necessary, and what the bottlenecks might be.)</p></li>
 </ol>
 
 
@@ -721,7 +753,7 @@ gtag('config', 'G-25YNZL7ZML', { 'anonymize_ip': true});
 <p><a href="https://github.com/dajmcdon"><i class="bi bi-github"></i></a> <a href="https://scholar.google.com/citations?user=qRmkt6wAAAAJ&amp;hl=en"><i class="ai ai-google-scholar"></i></a> <a href="https://www.linkedin.com/in/dajmcdon/"><i class="bi bi-linkedin"></i></a> <a href="https://orcid.org/0000-0002-0443-4282"><i class="ai ai-orcid"></i></a> <a href="mailto:daniel@stat.ubc.ca"><i class="bi bi-envelope"></i></a></p>
 </div>
     <div class="nav-footer-right">
-<p>© 2025 Daniel J. McDonald</p>
+<p>© 2026 Daniel J. McDonald</p>
 </div>
   </div>
 </footer>
